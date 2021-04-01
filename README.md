@@ -1,8 +1,8 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Sistemas de Informação`
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Aplicações Web`
 
 `SEMESTRE`
 
@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
+- Bárbara Bruna D'Áustole Gelape 
 - Anakin Skywalker
 
 ## Professor
 
-- Mestre Yoda
+- Fábio Martins de Oliveira
 
 # Documentação
 
