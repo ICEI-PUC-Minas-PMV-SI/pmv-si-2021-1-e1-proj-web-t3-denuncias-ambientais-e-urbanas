@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 - Bárbara Bruna D'Áustole Gelape 
-- Anakin Skywalker
+- Krysthyan Jhonny Ramos da Silva
 
 ## Professor
 
