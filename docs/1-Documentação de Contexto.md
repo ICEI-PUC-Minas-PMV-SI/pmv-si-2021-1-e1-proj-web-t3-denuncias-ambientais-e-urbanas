@@ -25,12 +25,12 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Desde de a criação da Secretaria Especial do Meio Ambiente - SEMA, pelo Decreto nº 73.030, de 30 de outubro de 1973, percebe-se a preocupação governamental em se integrar a população nas discussões ambientais. Com isso, vem-se fomentando a proposta para a participação popular durante as discussões a respeito de assuntos ambientais, em busca assim de um engajamento popular a respeito de sua preservação. 
+Considerado, portanto, algo essencial para a vida de todos, trata-se de dever global que o ambiente seja preservado, tornando obrigação de qualquer pessoa, não so a de fazer a sua parte, como a de fiscalizar a ação dos demais. 
+Com este intuito então, propõe-se então um portal de fácil acesso para que a comunidade, ao vislumbrar qualquer transgressão ambiental consiga direcionar uma denúncia para o devido responsável para tratar da mesma.
+O aplicativo Web que será desenvolvido dará ao seu usuário a possibilidade de, ao fazer uma denúncia, decidir se a quer fazer anonimamente ou não, garantindo assim sua privacidade e evitando desta forma represálias, tendo em vista que o possível denunciado pode ser algum conhecido ou vizinho. 
+Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos dos próprios cidadãos, tornando-se mais eficaz, tendo em vista que estão mais próximos do problema.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
