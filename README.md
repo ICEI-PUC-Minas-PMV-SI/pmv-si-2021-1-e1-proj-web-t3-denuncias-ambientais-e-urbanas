@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Sistema de Denuncias Ambientais e Urbanas
 
 `Sistemas de Informação`
 
@@ -6,12 +6,15 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Sistema Web para que a comunidade, ao vislumbrar qualquer transgressão ambiental, consiga direcionar uma denúncia para o devido responsável possa trata-la.
 
 ## Integrantes
 
 - Bárbara Bruna D'Áustole Gelape 
+- Caroline Clarissa Leite de Aguiar
 - Krysthyan Jhonny Ramos da Silva
+- Pedro Henrique de Souza Monti
+- Simone Antunes da Cruz Macedo
 
 ## Professor
 
