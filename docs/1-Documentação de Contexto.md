@@ -3,11 +3,14 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Problema: Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável?
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+(Hipótese, afirmação provisória) Ser capaz de realizar uma denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. Levando em consideração que o espaço geográfico *conceituar espaço geográfico*, temos então uma relação homem e meio onde os dois agentes se influenciam diretamente. Irregularidades ambientais são frequentes devido ao crescimento urbano desenfreado e não planejado, causam danos ao ambiente e nem sempre são fiscalizados ou detectados por órgãos competentes. A exposição dos problemas ambientais é um passo para se conseguir a atenção de todos e uma maior participação da sociedade na conservação do meio ambiente.
+(Limitar a uma dimensão viável, ser o mais específico possível):
+(não dar valor “é bom” “é certo” imparcialidade aqui!):
+Hipótese: Resposta ao problema!
+
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
