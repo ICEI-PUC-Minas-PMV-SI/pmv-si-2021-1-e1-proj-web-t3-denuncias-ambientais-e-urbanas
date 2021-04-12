@@ -20,12 +20,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo geral: 
+Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas a fim de que os órgãos responsáveis possam punir e/ou tomar providências para se evitar perda significativa ao meio ambiente. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> **Objetivos específicos:**:
+> - Fornecer meios para denúncias e compartilhamentos de crimes ambientais. 
+> - Conscientizar a população a respeito da importância da preservação do meio ambiente.
 
 ## Justificativa
 
