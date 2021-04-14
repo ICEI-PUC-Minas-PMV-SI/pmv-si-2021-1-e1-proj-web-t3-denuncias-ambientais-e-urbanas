@@ -41,13 +41,15 @@ Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos d
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O público-alvo a que se destina o projeto é a sociedade civil (homens e mulheres) de jovens e adultos, de formação do nível fundamental ao superior, interessadas e preocupadas com o meio ambiente e com o impacto ambiental causado pelo pelo proprio homem e a problemática em que vivemos com a degradação ambiental cada vez maior e com a impunidade. O perfil  buscado é de pessoas que curtem a natureza, querem ser uteis e acreditam que devemos deixar um mundo melhor para as futuras gerações. Pessoas que gostam de tecnologia e a utilizam para relações pessoais  mas também para o bem comum e entendem  a importância das redes sociais que deve ser útil também para fins de denuncias e conscientização da população.
+Dentre o público-alvo encontram-se também  as Organizações não Governamentais, se destacando a Greenpeace, WWF-Brasil, SOS Mata atlântica entre outras tantas importantes a qual queremos chamar a atenção. Estas organizações trabalham com recursos e doações de pessoas físicas e empresas interessadas que recebem incentivos fiscais como dedução de impostos através de um projeto de lei n° 5.974 de 2005 criado para chamar a atenção da sociedade em geral.
+Com o intuito de promover maior visibilidade aos órgãos responsáveis pelo cuidado,  zelo e preservação  dos parques, reservas ecológicas e áreas verdes, seja no ambiento Federal como IBAMA ,vinculado ao ministério do meio ambiente, ou estadual como a SEMAD (secretaria estadual do meio ambiente), fortaleceremos o tripé sem o qual subsiste a eficácia deste projeto:
+1-Legislação (lei);
+2-Orgão para denuncia;
+3-Fiscalização.
+Com esse tripé fortalecido as denúncias serão eficazes, já que, através de leis criadas e aprovadas, haverá também punição. Assim, o projeto de denúncias ambientais unirão a sociedade civil, Empresas públicas ou privadas, Organizações não Governamentais e os órgãos responsáveis por cuidar, zelar e proteger o meio ambiente.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+
+
