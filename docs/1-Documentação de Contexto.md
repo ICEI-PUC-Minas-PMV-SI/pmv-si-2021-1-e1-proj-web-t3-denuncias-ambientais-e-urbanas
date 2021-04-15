@@ -20,10 +20,10 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Objetivo geral: 
+**Objetivo geral:** 
 Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas a fim de que os órgãos responsáveis possam punir e/ou tomar providências para se evitar perda significativa ao meio ambiente. 
 
-> **Objetivos específicos:**:
+**Objetivos específicos:**
 > - Fornecer meios para denúncias e compartilhamentos de crimes ambientais. 
 > - Conscientizar a população a respeito da importância da preservação do meio ambiente.
 
