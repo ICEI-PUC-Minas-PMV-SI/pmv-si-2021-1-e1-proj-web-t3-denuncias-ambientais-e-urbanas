@@ -15,12 +15,12 @@ Com este projeto buscamos resultados positivos referentes ao engajamento da soci
 
 **Objetivo geral:** 
 
-Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas, etc a fim de que os órgãos responsáveis possam se mobilizar para evitar perdas significativas ao meio ambiente. 
+Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar a aplicação web para fazer denúncias de irregularidades e crimes ambientais que causam degradação e impacto negativo na região afetada, a fim de criar um banco de dados com deúncias a serem consultadas a qualquer momento por qualquer usuário do sistema. 
 
 **Objetivos específicos:**
 
 > - Fornecer meios para denúncias e compartilhamentos de crimes ambientais. 
-> - Conscientizar a população a respeito da importância da preservação do meio ambiente através do papel atuante do cidadão na fiscalização do meio ambiente no contexto do qual ele vive.
+> - Fornecer meios para a população tornar-se mais participativa no que diz respeito à fiscalização do meio ambiente no contexto do qual vivem.
 
 ## Justificativa
 
