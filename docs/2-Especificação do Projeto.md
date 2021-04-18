@@ -50,8 +50,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser implementado utilizando as seguintes ferramentas e linguagens de programação para o Front-End: HTML, CSS e JavaScript. | ALTA | 
+|RNF-002| Todos os dados pessoais dos usuários devem passar por medidas de proteção e criptografia de mais alto nível, a fim de garantir o máximo de segurança e privacidade possível. | ALTA | 
+|RNF-003| O sistema deve implementado primeiramente na forma de um site e, posteriormente, conforme o avanço dos semestres, será implementado também na forma de um aplicativo. | MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -74,7 +75,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| A primeira parte do projeto (Front-End) deve ser entregue até o final do semestre, não podendo extrapolar a data de 12/07/2021, onde será avaliado pelo professor e o feedback será passado aos alunos. |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
