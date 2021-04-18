@@ -5,27 +5,22 @@
 
 ## Problema
 
-Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável.
+Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável e preocupada com a nantureza.
 
 Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas influenciadas e influcienciando diretamente no meio ambiene. As irregularidades ambientais, como degradação do meio ambiente são reflexo do crescimento do espaço urbano de forma rápida e pouco planejada. Este crescimento do espaço geográfico proporcionado por ação antrópica, causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, cidadão ou entidade civil, indo de encontro ao propósito cada vez mais almejado no globo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que hoje não nos faltam.
 
-(Limitar a uma dimensão viável, ser o mais específico possível):
-
-(não dar valor “é bom” “é certo” imparcialidade aqui!):
-
-Hipótese: Resposta ao problema!
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Com este projeto buscamos resultados potivos referente ao engajamento da sociedade civil no papel participativo, ciente e fiscalizador do meio ambiente, fazendo o uso desta ferramenta para expor problemas ambientais pouco ou nada solucionados, a curto e longo prazo e em escala regional dentro da região metropolitana de Belo Horizonte.
 
 ## Objetivos
 
 **Objetivo geral:** 
 
-Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas a fim de que os órgãos responsáveis possam punir e/ou tomar providências para se evitar perda significativa ao meio ambiente. 
+Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas a fim de que os órgãos responsáveis possam se mobilizar para evitar perdas significativas ao meio ambiente. 
 
 **Objetivos específicos:**
+
 > - Fornecer meios para denúncias e compartilhamentos de crimes ambientais. 
-> - Conscientizar a população a respeito da importância da preservação do meio ambiente.
+> - Conscientizar a população a respeito da importância da preservação do meio ambiente através da práxis e percepção da mesma ao observar o problema ambiental de perto.
 
 ## Justificativa
 
@@ -41,10 +36,10 @@ Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos d
 
 ## Público-Alvo
 
-
 O público-alvo a que se destina o projeto é a sociedade civil (homens e mulheres) de jovens e adultos, de formação do nível fundamental ao superior, interessadas e preocupadas com o meio ambiente e com o impacto ambiental causado pelo pelo proprio homem e a problemática em que vivemos com a degradação ambiental cada vez maior e com a impunidade. O perfil  buscado é de pessoas que curtem a natureza, querem ser uteis e acreditam que devemos deixar um mundo melhor para as futuras gerações. Pessoas que gostam de tecnologia e a utilizam para relações pessoais  mas também para o bem comum e entendem  a importância das redes sociais que deve ser útil também para fins de denuncias e conscientização da população.
 Dentre o público-alvo encontram-se também  as Organizações não Governamentais, se destacando a Greenpeace, WWF-Brasil, SOS Mata atlântica entre outras tantas importantes a qual queremos chamar a atenção. Estas organizações trabalham com recursos e doações de pessoas físicas e empresas interessadas que recebem incentivos fiscais como dedução de impostos através de um projeto de lei n° 5.974 de 2005 criado para chamar a atenção da sociedade em geral.
 Com o intuito de promover maior visibilidade aos órgãos responsáveis pelo cuidado,  zelo e preservação  dos parques, reservas ecológicas e áreas verdes, seja no ambiento Federal como IBAMA ,vinculado ao ministério do meio ambiente, ou estadual como a SEMAD (secretaria estadual do meio ambiente), fortaleceremos o tripé sem o qual subsiste a eficácia deste projeto:
+
 1-Legislação (lei);
 2-Orgão para denuncia;
 3-Fiscalização.
