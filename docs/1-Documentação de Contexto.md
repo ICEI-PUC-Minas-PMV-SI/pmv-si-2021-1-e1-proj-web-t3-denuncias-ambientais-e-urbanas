@@ -1,6 +1,6 @@
 # Introdução
 
-   Através desse projeto, temos o ímpeto de implementar uma nova realidade na vida das pessoas, com o conceito socio ambiental como base, através desta aplicação seremos capazes de ter uma maior captação de dados a respeito de denúncias urbanas e ambientais, visamos atender e se possível solucionar uma precariedade deste setor que é a falta de interação entre os órgãos públicos e a população.Temos como principal objetivo, a mudança de hábitos negativos, combater a falta de informação e dar a devida atenção ao tema que deveria ser de conhecimento e preocupação de todos, visando colocar a própria população como agente de fiscal, consequentemente além de distribuir a responsabilidade real dos valores e deveres de um cidadão, resultara na melhor qualidade de vida do mesmo, e o equilíbrio do indivíduo com a natureza de forma sustentável.
+   Através desse projeto, temos o ímpeto de implementar uma nova realidade na vida das pessoas, com o conceito socio ambiental como base. Através desta aplicação seremos capazes de ter uma maior captação de dados a respeito de denúncias urbanas e ambientais, visando expor e se possível viralizar as denúncias a ponto de cativar e se possível ser uma ferramenta para mobilizar soluçõeos para os problemas ambientais expostos via terceiros. Temos como principal objetivo a mudança de hábitos negativos, combater a falta de informação e dar a devida atenção ao tema que deveria ser de conhecimento e preocupação de todos, visando colocar a própria população como agente fiscalizador, enfatizando de forma indireta a responsabilidade real dos valores e deveres de um cidadão para com a sociedade na qual vive, resultando na melhor qualidade de vida do mesmo, com o equilíbrio do indivíduo  e com a natureza sendo cuidada de forma sustentável.
 
 
 ## Problema
@@ -9,18 +9,18 @@ Ser capaz de denunciar irregularidades ambientais é suficiente para maior parti
 
 Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas influenciadas e influcienciando diretamente no meio ambiene. As irregularidades ambientais, como degradação do meio ambiente são reflexo do crescimento do espaço urbano de forma rápida e pouco planejada. Este crescimento do espaço geográfico proporcionado por ação antrópica, causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, cidadão ou entidade civil, indo de encontro ao propósito cada vez mais almejado no globo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que hoje não nos faltam.
 
-Com este projeto buscamos resultados potivos referente ao engajamento da sociedade civil no papel participativo, ciente e fiscalizador do meio ambiente, fazendo o uso desta ferramenta para expor problemas ambientais pouco ou nada solucionados, a curto e longo prazo e em escala regional dentro da região metropolitana de Belo Horizonte.
+Com este projeto buscamos resultados positivos referentes ao engajamento da sociedade civil no papel participativo, ciente e fiscalizador do meio ambiente, fazendo o uso desta ferramenta para expor problemas ambientais, idealizando a curto, médio ou longo prazo uma solução para todos os problemas pontuais dentro do Estado de Minas Gerais.
 
 ## Objetivos
 
 **Objetivo geral:** 
 
-Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas a fim de que os órgãos responsáveis possam se mobilizar para evitar perdas significativas ao meio ambiente. 
+Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas, etc a fim de que os órgãos responsáveis possam se mobilizar para evitar perdas significativas ao meio ambiente. 
 
 **Objetivos específicos:**
 
 > - Fornecer meios para denúncias e compartilhamentos de crimes ambientais. 
-> - Conscientizar a população a respeito da importância da preservação do meio ambiente através da práxis e percepção da mesma ao observar o problema ambiental de perto.
+> - Conscientizar a população a respeito da importância da preservação do meio ambiente através do papel atuante do cidadão na fiscalização do meio ambiente no contexto do qual ele vive.
 
 ## Justificativa
 
