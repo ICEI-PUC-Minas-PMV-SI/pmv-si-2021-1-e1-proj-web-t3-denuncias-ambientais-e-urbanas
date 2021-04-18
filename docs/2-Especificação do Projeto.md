@@ -12,6 +12,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 2*    O senhor Claudio tem 49 anos, morador de Contagem, possui bacharelado em contabilidade e trabalha em seu escritório próprio, possuindo clientes e contatos em várias cidades. Claudio gosta de viajar para a praia e tomar uma cerveja. Por conta de sua rotina de trabalho, Claudio precisa viajar muito e constantemente em suas viagens percebe diversas queimadas ao longo de seu percurso, se sentindo muito incomodado com a situação, contudo desconhece a que órgão encaminhar uma denúncia.
 
+3*    José Felipe tem 32 anos, morador de Betim, possui experiencia na área de T.I trabalhando como programador e cursa Ciência da Computação. Em seu tempo livre, José gosta de assistir series e doramas. Como trabalha em home office ele passa bastante tempo em casa, contudo seu vizinho possui uma área verde extensa onde, após a limpeza, faz queimadas de suas folhas secas dia sim dia não, incomodando José que sempre tem que lidar com a fumaça causada por seu vizinho. Apesar de já ter recorrido à polícia através de um boletim, ele não obteve sucesso em sua reclamação. 
+
+4*    Fernanda tem 26 anos, é moradora de Sabará e trabalha como técnica em enfermagem. Quando está de folga de seus longos e cansativos plantões, gosta de ter contato com a natureza fazendo trilhas pela Serra do Cipó. Por fazer muitas trilhas Fernanda acaba visitando muitas cachoeiras onde se depara com resíduos de lixos e poluentes descartados pelos visitantes, prejudicando a fauna e a flora local. Consciente da necessidade de preservação ambiental Fernanda se sente frustrada por não conseguir realizar denúncias sobre tais situações, além do sentimento de impunidade para tal.
 
 ## Histórias de Usuários
 
