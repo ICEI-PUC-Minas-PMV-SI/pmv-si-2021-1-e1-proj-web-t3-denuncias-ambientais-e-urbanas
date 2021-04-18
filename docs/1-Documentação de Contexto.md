@@ -4,11 +4,10 @@
 
 
 ## Problema
-Problema: Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável?
 
-(Hipótese, afirmação provisória) Ser capaz de realizar uma denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. Levando em consideração que o espaço geográfico *conceituar espaço geográfico*, temos então uma relação homem e meio onde os dois agentes se influenciam diretamente. 
+Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável.
 
-Irregularidades ambientais são frequentes devido ao crescimento urbano desenfreado e não planejado, causam danos ao ambiente e nem sempre são fiscalizados ou detectados por órgãos competentes. A exposição dos problemas ambientais é um passo para se conseguir a atenção de todos.
+Ser capaz de realizar uma denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas influenciadas e influcienciando diretamente no meio ambiene. As irregularidades ambientais, como degradação do meio ambiente são reflexo do crescimento do espaço urbano de forma rápida e pouco planejada. Este crescimento do que conhecemos como cidades, causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, indo de encontro
 
 (Limitar a uma dimensão viável, ser o mais específico possível):
 
