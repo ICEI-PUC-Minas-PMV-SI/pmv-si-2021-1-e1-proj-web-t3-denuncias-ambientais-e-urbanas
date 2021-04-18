@@ -8,19 +8,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1*    Dona Cida tem 47 anos, moradora de Ribeirão das Neves, não tem formação acadêmica e trabalha de forma autônoma como revendedora de produtos de beleza. Ela pensa em criar bem os seus filhos, cuidar de sua moradia e de seu marido, com quem é casada há 20 anos. Frequentemente Cida tem problemas com seu vizinho, Pedro, que faz o descarte de seu esgoto em frente à sua casa. Não sabendo a quem recorrer dona Cida vive constantemente amargurada.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+2*    O senhor Claudio tem 49 anos, morador de Contagem, possui bacharelado em contabilidade e trabalha em seu escritório próprio, possuindo clientes e contatos em várias cidades. Claudio gosta de viajar para a praia e tomar uma cerveja. Por conta de sua rotina de trabalho, Claudio precisa viajar muito e constantemente em suas viagens percebe diversas queimadas ao longo de seu percurso, se sentindo muito incomodado com a situação, contudo desconhece a que órgão encaminhar uma denúncia.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
