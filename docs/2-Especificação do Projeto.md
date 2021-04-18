@@ -56,7 +56,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006 Exclusão| O sistema permite que o usuário exclua as denúncias realizadas por ele mesmo. | BAIXA |
 |RF-007 Acesso| O sistema permite que o usuário tenha acesso á pagina de denúncias. | ALTA |
 |RF-008 Próxima Página| O sistema permite que o usuário navegue para a próxima página até a paginação alcançar o seu limite de denúncias. | ALTA |
-|RF-009 Página Anterior| O sistema permite que o usuário retorne à página anterior. | ALTA |
+|RF-009 Página Anterior| O sistema permite que o usuário retorne à página anterior até a paginação alcançar o seu limite de denúncias. | ALTA |
 
 
 ### Requisitos não Funcionais
