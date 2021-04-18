@@ -7,7 +7,7 @@
 
 Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável.
 
-Ser capaz de realizar uma denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas influenciadas e influcienciando diretamente no meio ambiene. As irregularidades ambientais, como degradação do meio ambiente são reflexo do crescimento do espaço urbano de forma rápida e pouco planejada. Este crescimento do que conhecemos como cidades, causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, indo de encontro
+Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas influenciadas e influcienciando diretamente no meio ambiene. As irregularidades ambientais, como degradação do meio ambiente são reflexo do crescimento do espaço urbano de forma rápida e pouco planejada. Este crescimento do espaço geográfico proporcionado por ação antrópica, causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, cidadão ou entidade civil, indo de encontro ao propósito cada vez mais almejado no globo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que hoje não nos faltam.
 
 (Limitar a uma dimensão viável, ser o mais específico possível):
 
@@ -20,6 +20,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 ## Objetivos
 
 **Objetivo geral:** 
+
 Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar o aplicativo para fazer denúncias de irregularidades e crimes ambientais que causam degradação, e impacto às áreas verdes, parques e reservas ecológicas a fim de que os órgãos responsáveis possam punir e/ou tomar providências para se evitar perda significativa ao meio ambiente. 
 
 **Objetivos específicos:**
