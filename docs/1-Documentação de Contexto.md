@@ -36,7 +36,7 @@ Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos d
 
 ## Público-Alvo
 
-O publico alvo refere-se a moradores da região motropolitana de belo horizonte na faixa etária de 20 aos 50 anos, jovens e adultos de classe media,
+O publico alvo refere-se a moradores da região motropolitana de Belo horizonte na faixa etária de 20 aos 50 anos, jovens e adultos de classe media,
 sem delimitação de escolaridade.Trata-se de cidadãos incomodados com a frequente incidencia de ilegalidades ambientais, e
 que estão em busca de uma saída para resolver seus problemas por não saberem a quem recorrer.
 
