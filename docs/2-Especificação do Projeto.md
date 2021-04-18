@@ -51,9 +51,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001 Cadastro| O sistema deve permitir aos usuários cadastrados realizar login para acesso à área restrita do sistema. Login por número de Celular ou e-mail mais senha de acesso definida pelo usuário. | ALTA | 
 |RF-002 Denúncia| O sistema permite aos usuários realizar uma ou mais denúncias. Usuário opta por fazer denúncia anônima ou não. | MÉDIA |
 |RF-003 Logout| O sistema permite que o usuário realize logout para sair do sistema. | MÉDIA |
-|RF-004 Pesquisa| O sistema permite que o usuário procure por denúncias. | MÉDIA |
-
-
+|RF-004 Pesquisa| O sistema permite que o usuário procure por denúncias. | MÉDIA 
+|RF-005 Interação| O sistema permite que o usuário interaja com a denúncia, no espaço para comentários com limite de caracteres. | BAIXA |
+|RF-006 Exclusão| O sistema permite que o usuário exclua as denúncias realizadas por ele mesmo. | BAIXA |
+|RF-007 Acesso| O sistema permite que o usuário tenha acesso á pagina de denúncias. | ALTA |
+|RF-008 Próxima Página| O sistema permite que o usuário navegue para a próxima página até a paginação alcançar o seu limite de denúncias. | ALTA |
+|RF-009 Página Anterior| O sistema permite que o usuário retorne à página anterior. | ALTA |
 
 
 ### Requisitos não Funcionais
