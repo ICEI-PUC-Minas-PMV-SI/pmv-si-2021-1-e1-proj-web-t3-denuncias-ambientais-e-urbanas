@@ -36,14 +36,9 @@ Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos d
 
 ## Público-Alvo
 
-O público-alvo a que se destina o projeto é a sociedade civil (homens e mulheres) de jovens e adultos, de formação do nível fundamental ao superior, interessadas e preocupadas com o meio ambiente e com o impacto ambiental causado pelo pelo proprio homem e a problemática em que vivemos com a degradação ambiental cada vez maior e com a impunidade. O perfil  buscado é de pessoas que curtem a natureza, querem ser uteis e acreditam que devemos deixar um mundo melhor para as futuras gerações. Pessoas que gostam de tecnologia e a utilizam para relações pessoais  mas também para o bem comum e entendem  a importância das redes sociais que deve ser útil também para fins de denuncias e conscientização da população.
-Dentre o público-alvo encontram-se também  as Organizações não Governamentais, se destacando a Greenpeace, WWF-Brasil, SOS Mata atlântica entre outras tantas importantes a qual queremos chamar a atenção. Estas organizações trabalham com recursos e doações de pessoas físicas e empresas interessadas que recebem incentivos fiscais como dedução de impostos através de um projeto de lei n° 5.974 de 2005 criado para chamar a atenção da sociedade em geral.
-Com o intuito de promover maior visibilidade aos órgãos responsáveis pelo cuidado,  zelo e preservação  dos parques, reservas ecológicas e áreas verdes, seja no ambiento Federal como IBAMA ,vinculado ao ministério do meio ambiente, ou estadual como a SEMAD (secretaria estadual do meio ambiente), fortaleceremos o tripé sem o qual subsiste a eficácia deste projeto:
-
-1-Legislação (lei);
-2-Orgão para denuncia;
-3-Fiscalização.
-Com esse tripé fortalecido as denúncias serão eficazes, já que, através de leis criadas e aprovadas, haverá também punição. Assim, o projeto de denúncias ambientais unirão a sociedade civil, Empresas públicas ou privadas, Organizações não Governamentais e os órgãos responsáveis por cuidar, zelar e proteger o meio ambiente.
+O publico alvo refere-se a moradores da região motropolitana de belo horizonte na faixa etária de 20 aos 50 anos, jovens e adultos de classe media,
+sem delimitação de escolaridade.Trata-se de cidadãos incomodados com a frequente incidencia de ilegalidades ambientais, e
+que estão em busca de uma saída para resolver seus problemas por não saberem a quem recorrer.
 
 
 
