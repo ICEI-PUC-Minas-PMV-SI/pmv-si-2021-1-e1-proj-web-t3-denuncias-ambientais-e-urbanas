@@ -56,22 +56,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser implementado utilizando as seguintes ferramentas e linguagens de programação para o Front-End: HTML, CSS e JavaScript. | ALTA | 
 |RNF-002| Todos os dados pessoais dos usuários devem passar por medidas de proteção e criptografia de mais alto nível, a fim de garantir o máximo de segurança e privacidade possível. | ALTA | 
-|RNF-003| O sistema deve implementado primeiramente na forma de um site e, posteriormente, conforme o avanço dos semestres, será implementado também na forma de um aplicativo. | MÉDIA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-003| O sistema deve implementado primeiramente na forma de um site e, posteriormente, conforme o avanço dos semestres, será implementado também na forma de um aplicativo. | MÉDIA |
+|RNF-004| O site deve ser compatível com os navegadores mais utilizados no mercado. | ALTA | 
+|RNF-005| O site não deve conter anúncios invasivos e fraudulentos que prejudiquem a experiência do usuário. | ALTA | 
 
 ## Restrições
 
@@ -80,6 +67,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| A primeira parte do projeto (Front-End) deve ser entregue até o final do semestre, não podendo extrapolar a data de 12/07/2021, onde será avaliado pelo professor e o feedback será passado aos alunos. |
+
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
