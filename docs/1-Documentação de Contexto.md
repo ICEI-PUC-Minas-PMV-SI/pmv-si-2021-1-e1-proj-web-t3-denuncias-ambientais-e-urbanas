@@ -15,7 +15,7 @@ Com este projeto tentamos buscar resultados positivos referentes ao engajamento 
 
 **Objetivo geral:** 
 
-Maior engajamento do cidadão no processo de denunciar problemas ambientais observados nos municípios de atuação do sistema. 
+Maior engajamento do cidadão no processo de denúncias de problemas ambientais observados pelos mesmos nos municípios de atuação do sistema. 
 
 **Objetivos específicos:**
 
