@@ -25,7 +25,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Cida                | denunciar descarte ilegal de esgoto| evitar que tal prática se repita, causando a proliferação de pragas como baratas e ratos.  |
 |Claudio| comunicar às autoridades competentes a ocorrência de queimadas e desmate de áreas verdes remotas | facilitar a ciência do órgão competente destas ocorrências, agilizando assim sua ação.|
 |José Felipe| denunciar seu vizinho que constantemente realiza queimadas em seu quintal | que o vizinho seja notificado da ilegalidade de sua ação pelas autoridades.|
-|Fernanda| denunciar para o órgão competente ocorrência de descarte de lixo em áreas de preservação | preservar reservas ambientais, incentivando maior fiscalização destas áreas.  
+|Fernanda| denunciar para o órgão competente ocorrência de descarte de lixo em áreas de preservação | preservar reservas ambientais, incentivando maior fiscalização destas áreas.  |
+|Antonio Joaquim | denunciar pisoteamente de nascentes no Parque Municipal Fazenda Lagoa do Nado | expor para a sociedade a degradação daquele parque. |  
+|Maria Luiza | denunciar para o órgão competente possuidor de animais silvestres | denucniar anonimamente o possuidor do animal. |
+|Kettyllyn Kamylle | denunciar maus tratos aos animais em situação de rua | coibir a violêcia contra os animais. |
+|Francisco | denunciar descarte ilegal de dejetos químicos | preservar o meio ambiente, denuciando esta pratica ilegal.  |
 
 ## Requisitos
 
