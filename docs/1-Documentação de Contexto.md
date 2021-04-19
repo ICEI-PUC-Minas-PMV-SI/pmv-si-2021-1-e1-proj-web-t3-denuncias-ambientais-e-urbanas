@@ -7,20 +7,21 @@
 
 Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável e preocupada com a nantureza.
 
-Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas influenciadas e influcienciando diretamente no meio ambiene. As irregularidades ambientais, como degradação do meio ambiente são reflexo do crescimento do espaço urbano de forma rápida e pouco planejada. Este crescimento do espaço geográfico proporcionado por ação antrópica, causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, cidadão ou entidade civil, indo de encontro ao propósito cada vez mais almejado no globo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que hoje não nos faltam.
+Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas sendo influenciadas e influenciando diretamente o meio ambiene. As irregularidades ambientais, como a degradação do meio ambiente, são reflexo do crescimento desenfreado das cidades de forma rápida e pouco planejada. Este crescimento do espaço geográfico causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso, a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, cidadão ou entidade civil, indo de encontro ao propósito cada vez mais almejado no mundo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que nos são abundantes hoje.
 
-Com este projeto buscamos resultados positivos referentes ao engajamento da sociedade civil no papel participativo, ciente e fiscalizador do meio ambiente, fazendo o uso desta ferramenta para expor problemas ambientais, idealizando a curto, médio ou longo prazo uma solução para todos os problemas pontuais dentro do Estado de Minas Gerais.
+Com este projeto tentamos buscar resultados positivos referentes ao engajamento da sociedade civil no papel participativo, ciente e fiscalizador do meio ambiente. Através da exposição dos problemas ambientais, idealizamos se possível a curto, médio ou longo prazo solução para todas as denúncias ambientais. Com este projeto analisaremos também a viabilidade do sistema se tornar conforme o tempo de uso, não só uma ferramenta para captção de denúncias, mas também um meio de mobilizar e fazer o conhecimento das denúncias chegar às autarquias responsáveis pelas intervenções no processo de recuperação ambiental.
 
 ## Objetivos
 
 **Objetivo geral:** 
 
-Maior engajamento das pessoas com o cuidado e preservação do meio ambiente. Incentivar os usuários da internet a utilizar a aplicação web para fazer denúncias de irregularidades e crimes ambientais que causam degradação e impacto negativo na região afetada, a fim de criar um banco de dados com deúncias a serem consultadas a qualquer momento por qualquer usuário do sistema. 
+Maior engajamento do cidadão no processo de denunciar problemas ambientais observados nos municípios de atuação do sistema. 
 
 **Objetivos específicos:**
 
-> - Fornecer meios para denúncias e compartilhamentos de crimes ambientais. 
-> - Fornecer meios para a população tornar-se mais participativa no que diz respeito à fiscalização do meio ambiente no contexto do qual vivem.
+> - Fornecer meios para incentivar o cidadão à denunciar irregularidades ambientais tornando- mais participativo no que diz respeito à fiscalização do meio ambiente;
+> - Mobilizar autarquias responsáveis pela manutenção do meio ambiente em escala Estadual ou Municipal para propor soluções em tempo hábil;
+> - Criação de um banco de dados referente às denúncias realizadas por usuários, para consulta pública;
 
 ## Justificativa
 
@@ -28,7 +29,7 @@ Desde de a criação da Secretaria Especial do Meio Ambiente - SEMA, pelo Decret
 
 Considerado, portanto, algo essencial para a vida de todos, trata-se de dever global que o ambiente seja preservado, tornando obrigação de qualquer pessoa, não so a de fazer a sua parte, como a de fiscalizar a ação dos demais. 
 
-Com este intuito então, propõe-se então um portal de fácil acesso para que a comunidade, ao vislumbrar qualquer transgressão ambiental consiga direcionar uma denúncia para o devido responsável para tratar da mesma.
+Com este intuito então, propõe-se então um portal de fácil acesso para que a comunidade, ao vislumbrar qualquer transgressão ambiental consiga direcionar uma denúncia.
 
 O aplicativo Web que será desenvolvido dará ao seu usuário a possibilidade de, ao fazer uma denúncia, decidir se a quer fazer anonimamente ou não, garantindo assim sua privacidade e evitando desta forma represálias, tendo em vista que o possível denunciado pode ser algum conhecido ou vizinho. 
 Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos dos próprios cidadãos, tornando-se mais eficaz, tendo em vista que estão mais próximos do problema.
