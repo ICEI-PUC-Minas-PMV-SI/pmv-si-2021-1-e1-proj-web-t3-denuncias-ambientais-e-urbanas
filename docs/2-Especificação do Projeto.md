@@ -35,15 +35,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001 Cadastro| O sistema deve permitir aos usuários cadastrados realizar login para acesso à área restrita do sistema. Login por número de Celular ou e-mail mais senha de acesso definida pelo usuário. | ALTA | 
-|RF-002 Denúncia| O sistema permite aos usuários realizar uma ou mais denúncias. Usuário opta por fazer denúncia anônima ou não. | MÉDIA |
-|RF-003 Logout| O sistema permite que o usuário realize logout para sair do sistema. | MÉDIA |
-|RF-004 Pesquisa| O sistema permite que o usuário procure por denúncias. | MÉDIA 
-|RF-005 Interação| O sistema permite que o usuário interaja com a denúncia, no espaço para comentários com limite de caracteres. | BAIXA |
-|RF-006 Exclusão| O sistema permite que o usuário exclua as denúncias realizadas por ele mesmo. | BAIXA |
-|RF-007 Acesso| O sistema permite que o usuário tenha acesso á pagina de denúncias. | ALTA |
-|RF-008 Próxima Página| O sistema permite que o usuário navegue para a próxima página até a paginação alcançar o seu limite de denúncias. | ALTA |
-|RF-009 Página Anterior| O sistema permite que o usuário retorne à página anterior até a paginação alcançar o seu limite de denúncias. | ALTA |
+|RF-001 Cadastro| O sistema deve permitir aos usuários realizar cadastro. 
+|RF-002 Login| O sistema deve permitir aos usuários realizar login para acesso à área restrita do sistema. | ALTA | 
+|RF-003 Minha Conta| O sistema deve permitir aos usuários ter sua propria página de conta. | ALTA | 
+|RF-004 Foto| O sistema deve permitir aos usuários carregar no máximo 2 fotos vínculadas às denúncias. | ALTA |
+|RF-004 Mapa| O sistema deve permitir aos usuários adicionar o endereço da ocorrência na denûncia. | ALTA |
+|RF-005 Denúncia| O sistema deve permitir aos usuários realizar uma ou mais denúncias. Usuário opta por fazer denúncia anônima ou não. | MÉDIA |
+|RF-006 Logout| O sistema deve permitir  que o usuário realize logout para sair do sistema. | MÉDIA |
+|RF-007 Pesquisa| O sistema deve permitir que o usuário procure por denúncias. | MÉDIA 
+|RF-008 Interação| O sistema deve permitir que o usuário interaja com a denúncia, no espaço para comentários com limite de caracteres. | BAIXA |
+|RF-009 Exclusão| O sistema deve permitir que o usuário exclua as denúncias realizadas por ele mesmo. | BAIXA |
+|RF-010 Acesso| O sistema deve permitir que o usuário tenha acesso á pagina de denúncias. | ALTA |
+|RF-011 Próxima Página| O sistema deve permitir que o usuário navegue para a próxima página até a paginação alcançar o seu limite de denúncias. | ALTA |
+|RF-012 Página Anterior| O sistema deve permitir que o usuário retorne à página anterior até a paginação alcançar o seu limite de denúncias. | ALTA |
 
 
 ### Requisitos não Funcionais
