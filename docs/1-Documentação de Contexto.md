@@ -1,7 +1,16 @@
 # Introdução
 
-   Através desse projeto, temos o ímpeto de implementar uma nova realidade na vida das pessoas, com o conceito socio ambiental como base. Através desta aplicação seremos capazes de ter uma maior captação de dados a respeito de denúncias urbanas e ambientais, visando expor e se possível viralizar as denúncias a ponto de chamar a atenção e se possível mobilizar soluções para os problemas ambientais expostos pelos usuários. Temos como principal objetivo a mudança de hábitos negativos, combater a falta de informação e dar a devida atenção ao tema que deveria ser de conhecimento e preocupação de todos, visando colocar a própria população como agente fiscalizador, enfatizando de forma indireta a responsabilidade real dos valores e deveres de um cidadão para com a sociedade na qual vive, resultando na melhor qualidade de vida do mesmo, com o equilíbrio do indivíduo  e com a natureza sendo cuidada de forma sustentável.
+   Através deste projeto buscamos implementar uma nova realidade na vida das pessoas através de uma aplicação web de denúncias ambientais para a região metropolitana de Belo Horizonte em Minas Gerais. 
 
+Tendo vista que vivemos em um mundo cada vez mais engajado e preocupado com medidas de proteção ao meio ambiente, esta aplicação web foi pensada para ser usada como ferramenta de exposição das problemáticas ambientais vivenciadas e percebidas pelos usuários, de forma a revelar à sociedade os impactos ambientais esquecidos e até então ignorados localizados no espaço geográfico.
+
+Aos cidadãos é dado o direito de participar ativamente no controle da gestão dos seus governantes, exercendo papel fundamental na participação da manutenção e ordem no município de moradia, com objetivo de melhorar a qualidade e identificar as irregularidades nos serviços públicos. A legislação federal brasileira no artigo 70º § 2º da Lei Nº 9.605, de 12 de Fevereiro de 1998, é clara ao expressar que: 
+
+“Qualquer pessoa, constatando infração ambiental, poderá dirigir representação às autoridades relacionadas no parágrafo anterior, para efeito do exercício do seu poder de polícia.”
+
+As leis ambientais de proteção são muitas e prezam pelo princípio da participação popular, no que diz respeito à participação do público na fiscalização dos potenciais poluidores (privados ou não) e manutenção do meio ambiente. A participação da população nos processos de fiscalização, principalmente em âmbito ambiental, reforça o poder de voz do povo ao lutar pelo meio ambiente, fazendo valer direitos constitucionais que reforçam a manutenção da nossa democracia, qualidade de vida e equilíbrio sustentável nas relações sociedade x natureza.
+
+Com o engajamento da população frente ao sistema proposto de denúncias ambientais neste projeto, é pretendido em hipótese, mobilizar a curto, médio ou longo prazo soluções para os problemas ambientais denunciados e expostos pelos usuários. É possível também ocorrer, com a exposição das irregularidades ambientais,  mudanças positivas na sociedade. Poderá ser mais disseminada no imaginário da população a idéia da importância do meio ambiente para garantir boa qualidade de vida ao ser humano, protegendo assim a permanência das gerações atuais e futuras no globo. Os próprios usuários do sistema agirão como agentes fiscalizadores, usufruindo dos seus direitos e deveres como cidadão, prezando pelo equilíbrio das relações do indivíduo para com a natureza.
 
 ## Problema
 
