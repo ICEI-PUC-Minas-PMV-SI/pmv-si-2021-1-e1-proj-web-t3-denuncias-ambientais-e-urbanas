@@ -2,7 +2,7 @@
 
    Através deste projeto buscamos implementar uma nova realidade na vida das pessoas através de uma aplicação web de denúncias ambientais para a região metropolitana de Belo Horizonte em Minas Gerais. 
 
-Tendo vista que vivemos em um mundo cada vez mais engajado e preocupado com medidas de proteção ao meio ambiente, esta aplicação web foi pensada para ser usada como ferramenta de exposição das problemáticas ambientais vivenciadas e percebidas pelos usuários, de forma a revelar à sociedade os impactos ambientais esquecidos e até então ignorados localizados no espaço geográfico.
+Tendo vista que vivemos em um mundo cada vez mais engajado e preocupado com medidas de proteção ao meio ambiente, esta aplicação web foi pensada para ser usada como ferramenta de exposição das problemáticas ambientais vivenciadas e percebidas pelos usuários, de forma a revelar à sociedade os impactos ambientais esquecidos e até então ignorados localizados no espaço geográfico. A preservação do meio ambiente é essencial não só para a manutenção da vida humana na Terra, mas de todos os seres vivos. 
 
 Aos cidadãos é dado o direito de participar ativamente no controle da gestão dos seus governantes, exercendo papel fundamental na participação da manutenção e ordem no município de moradia, com objetivo de melhorar a qualidade e identificar as irregularidades nos serviços públicos. A legislação federal brasileira no artigo 70º § 2º da Lei Nº 9.605, de 12 de Fevereiro de 1998, é clara ao expressar que: 
 
