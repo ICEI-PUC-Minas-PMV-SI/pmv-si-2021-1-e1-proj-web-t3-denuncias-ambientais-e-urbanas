@@ -53,14 +53,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003 Minha Conta| O sistema deve permitir aos usuários ter sua propria página de conta. | ALTA | 
 |RF-004 Foto| O sistema deve permitir aos usuários carregar no máximo 2 fotos vínculadas às denúncias. | ALTA |
 |RF-004 Mapa| O sistema deve permitir aos usuários adicionar o endereço da ocorrência na denûncia. | ALTA |
-|RF-005 Denúncia| O sistema deve permitir aos usuários realizar uma ou mais denúncias. Usuário opta por fazer denúncia anônima ou não. | MÉDIA |
-|RF-006 Logout| O sistema deve permitir  que o usuário realize logout para sair do sistema. | MÉDIA |
-|RF-007 Pesquisa| O sistema deve permitir que o usuário procure por denúncias. | MÉDIA 
-|RF-008 Interação| O sistema deve permitir que o usuário interaja com a denúncia, no espaço para comentários com limite de caracteres. | BAIXA |
-|RF-009 Exclusão| O sistema deve permitir que o usuário exclua as denúncias realizadas por ele mesmo. | BAIXA |
-|RF-010 Acesso| O sistema deve permitir que o usuário tenha acesso á pagina de denúncias. | ALTA |
-|RF-011 Próxima Página| O sistema deve permitir que o usuário navegue para a próxima página até a paginação alcançar o seu limite de denúncias. | ALTA |
-|RF-012 Página Anterior| O sistema deve permitir que o usuário retorne à página anterior até a paginação alcançar o seu limite de denúncias. | ALTA |
+|RF-005 Denúncia| O sistema deve permitir aos usuários realizar uma ou mais denúncias. | MÉDIA |
+|RF-006 Denúncia| O sistema deve permitir aos usuários realizar denúncia de forma anonima ou não | MÉDIA |
+|RF-007 Logout| O sistema deve permitir  que o usuário realize logout para sair do sistema. | MÉDIA |
+|RF-008 Pesquisa| O sistema deve permitir que o usuário procure por denúncias. | MÉDIA 
+|RF-009 Interação| O sistema deve permitir que o usuário interaja com a denúncia, no espaço para comentários com limite de caracteres. | BAIXA |
+|RF-010 Exclusão| O sistema deve permitir que o usuário exclua as denúncias realizadas por ele mesmo. | BAIXA |
+|RF-011 Acesso| O sistema deve permitir que o usuário tenha acesso á pagina de denúncias. | ALTA |
+|RF-012 Próxima Página| O sistema deve permitir que o usuário navegue para a próxima página até a paginação alcançar o seu limite de denúncias. | ALTA |
+|RF-013 Página Anterior| O sistema deve permitir que o usuário retorne à página anterior até a paginação alcançar o seu limite de denúncias. | ALTA |
 
 
 ### Requisitos não Funcionais
@@ -73,6 +74,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| O sistema deve ser compatível com os navegadores mais utilizados no mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
 |RNF-005| O sistema não deve conter anúncios invasivos e fraudulentos que prejudiquem a experiência do usuário. | MÉDIA |
 |RNF-006| O sistema deve fornecer uma funcionalidade de Alto Contraste, garantindo assim a acessibilidade de usuários com dificuldades visuais. | MÉDIA |
+
 
 ## Restrições
 
