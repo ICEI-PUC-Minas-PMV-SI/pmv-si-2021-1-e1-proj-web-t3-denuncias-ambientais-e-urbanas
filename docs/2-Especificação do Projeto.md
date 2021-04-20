@@ -16,6 +16,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 4*    Fernanda tem 26 anos, é moradora de Sabará e trabalha como técnica em enfermagem. Quando está de folga de seus longos e cansativos plantões, gosta de ter contato com a natureza fazendo trilhas pela Serra do Cipó. Por fazer muitas trilhas Fernanda acaba visitando muitas cachoeiras onde se depara com resíduos de lixos e poluentes descartados pelos visitantes, prejudicando a fauna e a flora local. Consciente da necessidade de preservação ambiental Fernanda se sente frustrada por não conseguir realizar denúncias sobre tais situações, além do sentimento de impunidade para tal.
 
+5* Antonio Joaquim tem 48 anos, é morador da região norte de Belo Horizonte é professor de Geografia da rede estadual e nas horas vagas gosta de praticar a fotografia como hobby. Por ser hipertenso gosta de realizar caminhadas matinais dentro do Parque Municipal Fazenda Lagoa do Nado, que fica próximo a sua residência, Antonio geralmente percebe que as nascentes que avista durante suas caminhadas estão sendo frequentemente pisoteadas, atrapalhando seu desenvolvimento. Preocupado com a preservação ambiental, Antonio se incomoda com tal situação e quer expor para a sociedade a degradação daquele parque. 
+
+6* Maria Luiza tem 24 anos, é moradora de Juiz de Fora é estudante de Psicologia e quando não está em aula, gosta de ir ao cinema com os amigos e comer fora. Maria percebeu que ao lado de sua república um de seus vizinhos constantemente deixa as gaiolas de seus pássaros pela janela e que um deles se trata de uma arara azul, animal em extinção. Ao perceber a situação deplorável e ilegal do animal, Maria busca uma forma de realizar uma forma anônima este vizinho.
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
