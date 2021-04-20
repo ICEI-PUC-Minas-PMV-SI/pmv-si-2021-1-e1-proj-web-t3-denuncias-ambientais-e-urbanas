@@ -54,7 +54,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004 Foto| O sistema deve permitir aos usuários carregar no máximo 2 fotos vínculadas às denúncias. | ALTA |
 |RF-004 Mapa| O sistema deve permitir aos usuários adicionar o endereço da ocorrência na denûncia. | ALTA |
 |RF-005 Denúncia| O sistema deve permitir aos usuários realizar uma ou mais denúncias. | MÉDIA |
-|RF-006 Denúncia| O sistema deve permitir aos usuários realizar denúncia de forma anonima ou não | MÉDIA |
+|RF-006 Denúncia| O sistema deve permitir aos usuários realizar denúncia de forma anonima ou não. | MÉDIA |
 |RF-007 Logout| O sistema deve permitir  que o usuário realize logout para sair do sistema. | MÉDIA |
 |RF-008 Pesquisa| O sistema deve permitir que o usuário procure por denúncias. | MÉDIA 
 |RF-009 Interação| O sistema deve permitir que o usuário interaja com a denúncia, no espaço para comentários com limite de caracteres. | BAIXA |
