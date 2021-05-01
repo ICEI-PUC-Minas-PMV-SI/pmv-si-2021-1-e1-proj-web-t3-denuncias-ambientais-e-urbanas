@@ -24,7 +24,7 @@ Através da exposição dos problemas ambientais idealizamos a curto, médio ou 
 
 **Objetivo geral:** 
 
-Maior engajamento do cidadão no processo de denúncias de problemas ambientais observados pelos mesmos nos municípios de atuação do sistema. 
+Maior engajamento do cidadão no processo de denúncias de problemas ambientais observados pelos mesmos nos municípios de atuação do sistema, em Minas Gerais. 
 
 **Objetivos específicos:**
 
