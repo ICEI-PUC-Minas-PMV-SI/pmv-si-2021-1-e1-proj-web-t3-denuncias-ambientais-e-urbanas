@@ -16,9 +16,9 @@ Com o engajamento da população frente ao sistema proposto de denúncias ambien
 
 Ser capaz de denunciar irregularidades ambientais é suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável e preocupada com a nantureza.
 
-Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas sendo influenciadas e influenciando diretamente o meio ambiene. As irregularidades ambientais, como a degradação do meio ambiente, são reflexo do crescimento desenfreado das cidades de forma rápida e pouco planejada. Este crescimento do espaço geográfico causam danos ao meio ambiente e nem sempre estes dados são fiscalizados ou detectados por órgãos competentes. Por isso, a exposição dos problemas ambientais é um passo para se conseguir a atenção de todos, cidadão ou entidade civil, indo de encontro ao propósito cada vez mais almejado no mundo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que nos são abundantes hoje.
+Ser capaz de realizar qualquer denúncia ambiental é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. É sabido que no espaço geográfico é onde acontecem as relações humanas sendo influenciadas e influenciando diretamente o meio ambiene. As irregularidades ambientais, como a degradação do meio ambiente, são reflexo do crescimento desenfreado das cidades de forma rápida e pouco planejada. Este crescimento do espaço geográfico causam danos ao meio ambiente e nem sempre estes danos são fiscalizados ou detectados por órgãos competentes. Por isso, a exposição dos problemas ambientais é um passo para se conseguir a atenção dos cidadãos e entidades civís, indo de encontro ao propósito cada vez mais almejado no mundo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que nos são abundantes hoje. 
 
-Com este projeto tentamos buscar resultados positivos referentes ao engajamento da sociedade civil no papel participativo, ciente e fiscalizador do meio ambiente. Através da exposição dos problemas ambientais, idealizamos se possível a curto, médio ou longo prazo solução para todas as denúncias ambientais. Com este projet só uma ferramenta para captção de denúncias, mas também um meio de mobilizar e fazero, o website não somente será coletora de denúncias como também poderá fazer com que as mesmas cheguem às autarquias responsáveis pelas intervenções nos processos de recuperação e fiscalização ambiental.
+Através da exposição dos problemas ambientais idealizamos a curto, médio ou longo prazo solução para todas as denúncias ambientais. Este projeto não é somente ferramenta para captção de denúncias, mas também um meio para fazer com que as ocorrências cheguem às autarquias responsáveis pelos processos de recuperação, manutençãoo e fiscalização ambiental.
 
 ## Objetivos
 
@@ -30,7 +30,8 @@ Maior engajamento do cidadão no processo de denúncias de problemas ambientais 
 
 > - Fornecer meios para incentivar o cidadão à denunciar irregularidades ambientais tornando- mais participativo no que diz respeito à fiscalização do meio ambiente;
 > - Mobilizar autarquias responsáveis pela manutenção do meio ambiente em escala Estadual ou Municipal para propor soluções em tempo hábil;
-> - Criação de um banco de dados referente às denúncias realizadas por usuários, para consulta pública;
+> - Redirecionamento opcional das denúncias para órgãos competentes;
+> - Criação de um banco de dados referente às denúncias realizadas por usuários, de consulta pública;
 
 ## Justificativa
 
@@ -46,7 +47,7 @@ Com tal aplicativo em funcionamento, a fiscalização ambiental fica nas mãos d
 
 ## Público-Alvo
 
-Apesar de toda a sociedade se beneficiar com os cuidados ao meio ambiente nosso púbico alvo refere-se a moradores dado Estado de Minas Gerais na faixa etária de 18 aos 50 anos, jovens e adultos sem restrições de classe social e sem delimitação de escolaridade.Trata-se de cidadãos interessados na manutenção e preservação do meio ambiente do Estado de Minas Gerais  incomodados com a frequente incidência de ilegalidades ambientais, e que desconhece a quem recorrer para solução de tais infrações.
+Apesar de toda a sociedade se beneficiar com os cuidados ao meio ambiente, nosso púbico alvo refere-se a moradores dado Estado de Minas Gerais na faixa etária de 18 aos 50 anos, jovens e adultos sem restrições de classe social e sem delimitação de escolaridade. Trata-se de cidadãos interessados na manutenção e preservação do meio ambiente no Estado de Minas Gerais incomodados com a frequente incidência de ilegalidades ambientais, e que desconhece a quem recorrer para solução de tais infrações.
 
 
 
