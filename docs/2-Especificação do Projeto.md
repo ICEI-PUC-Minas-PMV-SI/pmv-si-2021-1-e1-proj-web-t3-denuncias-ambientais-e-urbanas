@@ -29,7 +29,7 @@ E ainda visualizamos algumas restrições ao sistema, fazendo algumas delimitaç
 
 7ª  Kettyllyn Kamylle tem 18 anos e mora no nordeste do Estado, na cidade de Nanuque. Recém formada no Ensino Médio, sonha em ser veterinária e está estudando bastante para a prova do Enem. Kettyllyn faz visitas regulares a casa de sua avó e lá vê que os jovens da região realizam maus tratos aos animais abandonados pelos moradores dali, presenciando todos os tipos de violência física contra os bichinhos. Muito entristecida com o que vê, Kettyllyn quer uma forma de reprimir os maus tratos realizados. 
 
-8ª  Joaquim, morador de Três Marias, não teve oportunidade de estudar durante a infância, possuindo apenas o Ensino Fundamental incompleto. Ele tem 42 anos e desde de criança pesca no rio São Francisco, tanto para consumo quanto para venda na barraca que possui com sua esposa. Como está sempre pescando, Joaquim percebeu que há algum tempo a qualidade e quantidade dos peixes está diminuindo, e ao navegar ao longo do rio visualiza que umas das indústrias locais estão descartando seus dejetos químicos ali. Revoltado com o comprometimento de sua única fonte de renda, Joaquim quer expor a atividade ilegal desta indústria para toda a população. 
+8ª  Jennifer de Rivia, morador de Três Marias, não teve oportunidade de estudar durante a infância, possuindo apenas o Ensino Fundamental incompleto. Ele tem 42 anos e desde de criança pesca no rio São Francisco, tanto para consumo quanto para venda na barraca que possui com sua esposa. Como está sempre pescando, Joaquim percebeu que há algum tempo a qualidade e quantidade dos peixes está diminuindo, e ao navegar ao longo do rio visualiza que umas das indústrias locais estão descartando seus dejetos químicos ali. Revoltado com o comprometimento de sua única fonte de renda, Joaquim quer expor a atividade ilegal desta indústria para toda a população. 
 
 
 ## Histórias de Usuários
@@ -43,9 +43,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |José Felipe| denunciar seu vizinho que constantemente realiza queimadas em seu quintal | que o vizinho seja notificado da ilegalidade de sua ação pelas autoridades.|
 |Fernanda| denunciar para o órgão competente ocorrência de descarte de lixo em áreas de preservação | preservar reservas ambientais, incentivando maior fiscalização destas áreas.  |
 |Antonio Joaquim | denunciar pisoteamento de nascentes no Parque Municipal Fazenda Lagoa do Nado | expor para a sociedade a degradação daquele parque. |  
-|Maria Luiza | denunciar, de forma anônima possuidor de animal silvestre |  preservar especies em extinção. |
+|Jennifer Luiza | denunciar, de forma anônima possuidor de animal silvestre |  preservar especies em extinção. |
 |Kettyllyn Kamylle | denunciar maus tratos aos animais em situação de rua | coibir a violêcia contra os animais. |
-|Francisco | denunciar descarte ilegal de dejetos químicos | preservar o meio ambiente, denuciando esta pratica ilegal.  |
+|Geraldo de Rivia | denunciar descarte ilegal de dejetos químicos | preservar o meio ambiente, denuciando esta pratica ilegal.  |
 
 ## Requisitos
 
