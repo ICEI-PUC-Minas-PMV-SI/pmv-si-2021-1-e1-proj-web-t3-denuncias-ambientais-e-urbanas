@@ -31,7 +31,7 @@ Maior engajamento do cidadão no processo de denúncias de problemas ambientais 
 > - Fornecer meios para incentivar o cidadão à denunciar irregularidades ambientais tornando- mais participativo no que diz respeito à fiscalização do meio ambiente;
 > - Mobilizar autarquias responsáveis pela manutenção do meio ambiente em escala Estadual ou Municipal para propor soluções em tempo hábil;
 > - Redirecionamento opcional das denúncias para órgãos competentes;
-> - Criação de um banco de dados referente às denúncias realizadas por usuários, de consulta pública;
+> - Criação de um banco de dados referente às denúncias realizadas por usuários, de consulta pública; 
 
 ## Justificativa
 
