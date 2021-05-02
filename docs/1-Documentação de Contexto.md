@@ -14,7 +14,7 @@ Com o engajamento da população frente ao sistema proposto de denúncias ambien
 
 ## Problema
 
-Ser capaz de denunciar irregularidades ambientais pode ser suficiente para maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente visando uma sociedade mais sustentável e preocupada com a nantureza. A denúncia destas irregulalridades é fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. 
+Ser capaz de denunciar irregularidades ambientais pode ser eficiente para a maior participação da população no que diz respeito ao seu papel de agente transformador, educador e fiscalizador do meio ambiente, visando uma sociedade mais sustentável e preocupada com a nantureza. A denúncia destas irregulalridades poderá ser fundamental para pontuar e expor geograficamente os problemas relacionados ao meio ambiente. 
 
 É sabido que no espaço geográfico é onde acontecem as relações humanas sendo influenciadas e influenciando diretamente o meio ambiene. As irregularidades ambientais como a degradação do meio ambiente são tidas como um reflexo do crescimento desenfreado das cidades de forma rápida e pouco planejada. Este crescimento do espaço geográfico ( urbano e rural), causa danos ao meio ambiente e nem sempre estes danos são fiscalizados ou detectados por órgãos competentes. Por isso, a exposição dos problemas ambientais é um passo para se conseguir a atenção dos cidadãos e entidades civís, indo de encontro ao propósito cada vez mais almejado no mundo por promover a preservação do meio ambiente e garantir para gerações futuras os mesmos recursos naturais que hoje nos são abundantes. 
 
