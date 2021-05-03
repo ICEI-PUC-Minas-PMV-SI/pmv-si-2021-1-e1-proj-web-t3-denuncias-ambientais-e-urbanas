@@ -4,6 +4,10 @@
 
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
+## Apresentação Inicial 
+
+https://drive.google.com/file/d/1f_ZNhRmOtKzWDCsMHrKv3_yWZclibWyL/view?usp=sharing
+
 ## Título do Projeto
 
 Nome e marca do projeto
