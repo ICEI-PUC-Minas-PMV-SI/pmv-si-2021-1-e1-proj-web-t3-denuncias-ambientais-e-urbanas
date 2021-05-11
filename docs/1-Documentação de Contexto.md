@@ -35,7 +35,7 @@ Maior engajamento do cidadão no processo de denúncias de problemas ambientais 
 
 ## Justificativa
 
-Desde de a criação da Secretaria Especial do Meio Ambiente - SEMA, pelo Decreto nº 73.030, de 30 de outubro de 1973, percebe-se a preocupação governamental em se integrar a população nas discussões ambientais. Com isso, vem-se fomentando a proposta para a participação popular durante as discussões a respeito de assuntos ambientais, em busca assim de um engajamento popular a respeito de sua preservação. 
+Desde a criação da Secretaria Especial do Meio Ambiente - SEMA, pelo Decreto nº 73.030, de 30 de outubro de 1973, percebe-se a preocupação governamental em se integrar a população nas discussões ambientais. Com isso, vem-se fomentando a proposta para a participação popular durante as discussões a respeito de assuntos ambientais, em busca assim de um engajamento popular a respeito de sua preservação. 
 
 Considerado, portanto, algo essencial para a vida de todos, trata-se de dever global que o ambiente seja preservado, tornando obrigação de qualquer pessoa, não so a de fazer a sua parte, como a de fiscalizar a ação dos demais. 
 
