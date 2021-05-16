@@ -39,7 +39,12 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Apresento a divisão de papéis entre os membros do grupo:
+Product owner: por ter um papel importantíssimo na geração do tema para o projeto e por ter amplo conhecimento na área temática do projeto, este papel foi atribuido a Barbara.
+Scrum master: Por ter grande domínio em orátoria e ter demonstrado perfil de liderança, este papel foi atribuído a Caroline.
+Time de desenvolvimento:Toda a equipe terá este papel de desenvolver o projeto.
+
+
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
