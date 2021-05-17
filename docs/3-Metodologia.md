@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia de trabalho do grupo para atacar o problema é o Scrum. Definimos que os ambientes de trabalho utilizados pela  equipe para desenvolver o projeto serão a microsoft Teams e Whatsapp. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia de trabalho escolhida pelo grupo para o melhor desenvolvimento será o Scrum. Definimos que o ambiente de trabalho utilizado pela equipe para desenvolver o projeto será gerido pela plataforma GitHub, com o Microsoft Teams sendo utilizado como ferramenta de cominicação. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
 ## Controle de Versão
 
@@ -26,14 +26,6 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -41,42 +33,30 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 Apresento a divisão de papéis entre os membros do grupo:
 Product owner: por ter um papel importantíssimo na geração do tema para o projeto e por ter amplo conhecimento na área temática do projeto, este papel foi atribuído a Bárbara Bruna D'Austole Gelape.
+
 Scrum master: Por ter domínio em oratória e ter demonstrado perfil de liderança, este papel foi atribuído a Caroline Clarissa Leite de Aguiar.
+
 Time de desenvolvimento:Toda a equipe terá este papel de desenvolver o projeto.
 
 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para implementação do Scrum, além de uma clara divisão de tarefas pela equipe, utilizamos ainda quadros Kanban para gestão de tarefas e atividades, facilitando assim o acompanhamento de todos do que está sendo desenvolvido, além do que ainda precisa ser feito.
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- VSCode -Editor de código.
-- Teams e Watsapp-Ferramentas de comunicação
-- Figma ou Marvel-Ferramentas de diagramação
+- Visual Studio Code - Editor de código.
+- Teams - Ferramenta de comunicação
+- Figma ou Marvel - Ferramentas de diagramação
 
 O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
+sistema de versão. A ferramenta de comunicação foi escolhida por se tratar do meio oficial de comunicação fornecido pela instituição de ensino, além dela possuir
+facíl acesso por todos. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
