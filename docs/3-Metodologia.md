@@ -44,7 +44,12 @@ Time de desenvolvimento:Toda a equipe terá este papel de desenvolver o projeto.
 
 ### Processo
 
-Para implementação do Scrum, além de uma clara divisão de tarefas pela equipe, utilizamos ainda quadros Kanban para gestão de tarefas e atividades, facilitando assim o acompanhamento de todos do que está sendo desenvolvido, além do que ainda precisa ser feito. Foi feito uma reunião no modelo Scrum em que foi dividido as tarefas por meio de 5 sprints.
+Para implementação do Scrum, além de uma clara divisão de tarefas pela equipe, utilizamos ainda quadros Kanban para gestão de tarefas e atividades, facilitando assim o acompanhamento de todos do que está sendo desenvolvido, além do que ainda precisa ser feito. Foi feito uma reunião no modelo Scrum em que foi dividido as tarefas por meio de 5 sprints. 
+User flow
+Wireframes
+Metodologia
+Diagrama de componentes
+Tecnologias utilizadas e Hospedagem
  
 
 
