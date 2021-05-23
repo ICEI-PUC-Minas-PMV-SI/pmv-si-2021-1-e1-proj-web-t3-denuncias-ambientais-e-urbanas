@@ -59,7 +59,7 @@ As ferramentas empregadas no projeto são:
 
 - Visual Studio Code - Editor de código.
 - Teams - Ferramenta de comunicação
-- Figma ou Marvel - Ferramentas de diagramação
+- Figma - Ferramentas de diagramação
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. A ferramenta de comunicação foi escolhida por se tratar do meio oficial de comunicação fornecido pela instituição de ensino, além dela possuir
