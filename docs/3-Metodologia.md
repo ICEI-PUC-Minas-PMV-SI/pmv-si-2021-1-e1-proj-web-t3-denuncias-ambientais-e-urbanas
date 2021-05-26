@@ -46,11 +46,9 @@ Time de desenvolvimento:Toda a equipe terá este papel de desenvolver o projeto.
 
 Para implementação do Scrum, além de uma clara divisão de tarefas pela equipe, utilizamos ainda quadros Kanban para gestão de tarefas e atividades, facilitando assim o acompanhamento de todos do que está sendo desenvolvido, além do que ainda precisa ser feito. Foi feito uma reunião no modelo Scrum em que foi dividido as tarefas por meio de 5 sprints, sendo elas: 
 
-Sprint 0 - Fase inicial onde foram identificadas questões iniciais e fundamentais para o desenvolvimento, sendo
-levantada a documentação do projeto junto a sua especificação.
+Sprint 0 - Fase inicial onde foram identificadas questões iniciais e fundamentais para o desenvolvimento, sendo levantada a documentação do projeto junto a sua especificação.
 
-Sprint 1 - Momento para definição da melhor metodologia a ser aplicada ao projeto, junto da realização de seu projeto de
-interface. 
+Sprint 1 - Momento para definição da melhor metodologia a ser aplicada ao projeto, junto da realização de seu projeto de interface. 
 
 Sprint 2 - Inicio da codificação, a partir da construção do template padrão do site após definição de sua arquitetura.
 
