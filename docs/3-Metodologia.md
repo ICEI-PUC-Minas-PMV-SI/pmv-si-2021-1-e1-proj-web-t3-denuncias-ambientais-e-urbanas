@@ -44,12 +44,20 @@ Time de desenvolvimento:Toda a equipe terá este papel de desenvolver o projeto.
 
 ### Processo
 
-Para implementação do Scrum, além de uma clara divisão de tarefas pela equipe, utilizamos ainda quadros Kanban para gestão de tarefas e atividades, facilitando assim o acompanhamento de todos do que está sendo desenvolvido, além do que ainda precisa ser feito. Foi feito uma reunião no modelo Scrum em que foi dividido as tarefas por meio de 5 sprints. 
-User flow- fluxo do usuário
-Wireframes- realização dos protótipo usados em designer de interface;
-Metodologia- descrição detalhada da divisão dos sprints atraves do Scrum por meios de reuniões via Teams
-Diagrama de componentes- modelagem física do Sistema;
-Tecnologias utilizadas e Hospedagem
+Para implementação do Scrum, além de uma clara divisão de tarefas pela equipe, utilizamos ainda quadros Kanban para gestão de tarefas e atividades, facilitando assim o acompanhamento de todos do que está sendo desenvolvido, além do que ainda precisa ser feito. Foi feito uma reunião no modelo Scrum em que foi dividido as tarefas por meio de 5 sprints, sendo elas: 
+
+Sprint 0 - Fase inicial onde foram identificadas questões iniciais e fundamentais para o desenvolvimento, sendo
+levantada a documentação do projeto junto a sua especificação.
+
+Sprint 1 - Momento para definição da melhor metodologia a ser aplicada ao projeto, junto da realização de seu projeto de
+interface. 
+
+Sprint 2 - Inicio da codificação, a partir da construção do template padrão do site após definição de sua arquitetura.
+
+Sprint 3 - Após programação e implementação de suas funcionalidades, inicia-se a fase de testes funcionais do sistema.
+
+Sprint 4 - Ultima fase, onde seram realizados os teste funcionais e apresentação do projeto concluído. 
+
  
 
 
