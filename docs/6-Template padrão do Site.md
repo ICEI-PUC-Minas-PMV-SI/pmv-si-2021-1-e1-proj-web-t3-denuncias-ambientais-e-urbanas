@@ -4,6 +4,8 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+![image](https://user-images.githubusercontent.com/61299996/121094689-63b19800-c7c5-11eb-8be9-970b50286c88.png)
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
