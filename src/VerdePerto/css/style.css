@@ -1,0 +1,68 @@
+
+html {
+    background-color: #69f096;
+    min-height:100%;
+    position:relative;
+    width:1366px;
+
+}
+header {
+    color:#fff;
+    font-size: 25px;
+    text-align: center;
+    height: 150px;
+	background: top;
+    background-color: #267964;
+	padding-top: 25px;   
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0 1.5em;
+	line-height: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+body {
+    margin: 0cm;
+}
+
+#container-rodape {
+	background: #267964;
+	padding: 5px;
+    position:absolute;
+    bottom:0;
+    width: 1356px;
+}
+
+#rodape {
+    position: bottom;
+	margin: 0 ;
+	color: #fff;
+    background: #267964;
+}
+
+/* Página de Cadastro*/
+
+.corpo {
+    text-align: center;
+}
+
+
