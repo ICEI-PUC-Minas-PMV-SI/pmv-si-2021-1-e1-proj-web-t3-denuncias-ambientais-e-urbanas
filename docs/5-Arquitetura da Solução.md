@@ -60,9 +60,12 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para o desenvolvimento destre projeto, inicialmente foram utilizadas as linuagens de marcação HTML e CSS, sendo ela aplicadas para a padronagem e estilização do sistema. 
+Já para implementar a interação do usuário foi utilizado JavaScript. Incialmwnte não foi utilizada nenhuma biblioteca ou framework, poré está nos planos da equipe realizar
+implementações com React. 
+Será criado um banco de dados para gerenciameno das taelas de usuários e de denúncias realizadas. Para isso será utilizada a linguagem MySQL. 
+Desta forma, a integração por meio de uma API entre o sistema com o aco de dados se dará utilizando Node.JS. 
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 
 ## Hospedagem
