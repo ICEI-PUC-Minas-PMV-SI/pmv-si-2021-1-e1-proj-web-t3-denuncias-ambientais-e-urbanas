@@ -15,6 +15,7 @@ Sistema Web para que a comunidade, ao vislumbrar qualquer transgressão ambienta
 - Krysthyan Jhonny Ramos da Silva
 - Pedro Henrique de Souza Monti
 - Simone Antunes da Cruz Macedo
+- Yuri da Silva Cruz
 
 ## Professor
 
