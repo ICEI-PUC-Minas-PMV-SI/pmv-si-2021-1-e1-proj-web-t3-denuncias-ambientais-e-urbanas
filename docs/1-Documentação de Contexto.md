@@ -1,6 +1,6 @@
 # Introdução
 
-   Através deste projeto buscamos implementar uma nova realidade na vida das pessoas através de uma aplicação web de denúncias ambientais para o Estado de Minas Gerais. 
+   Com este projeto buscamos implementar uma nova realidade na vida das pessoas através do uso de uma aplicação web criada para reportar  problemas ambientais no Estado de Minas Gerais. 
 
 Tendo vista que vivemos em um mundo cada vez mais engajado e preocupado com medidas de proteção ao meio ambiente, esta aplicação web foi pensada para ser usada como ferramenta de exposição das problemáticas ambientais vivenciadas e percebidas pelos usuários, de forma a revelar à sociedade os impactos ambientais esquecidos e até então ignorados localizados no espaço geográfico. A preservação do meio ambiente é essencial não só para a manutenção da vida humana na Terra, mas de todos os seres vivos. 
 
