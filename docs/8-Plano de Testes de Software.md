@@ -6,7 +6,8 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
  
- Tarefa	Descrição					
+ Tarefa	 Descrição					
+ 
 1- Caroline	Teste de Funcionalidade	
 
 2-Simone	Teste de Usabilidade	
