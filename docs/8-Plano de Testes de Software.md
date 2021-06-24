@@ -7,12 +7,18 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
  
  Tarefa	Descrição					
-1- Carol	Teste de Funcionalidade					
-2-Simone	Teste de Usabilidade					
-3-Pedro	Teste de Performance					
-4-Barbara	Teste de Configuração					
-5-Chystian	Teste de Contingência					
+1- Caroline	Teste de Funcionalidade	
+
+2-Simone	Teste de Usabilidade	
+
+3-Pedro	Teste de Performance		
+
+4-Barbara	Teste de Configuração		
+
+5-Krysthyan	Teste de Contingência					
+
 6-Yuri	Teste de Recuperação					
+
 ![image](https://user-images.githubusercontent.com/81451748/123196728-d63a9d00-d480-11eb-857d-2296e7226d7f.png)
 
 
@@ -20,23 +26,44 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 Pré- condições:
 Computador com acesso a internet;
+
 Navegador versão compatível com HTML
 
 Procedimento:
+
+
 1-Acessar o site através do link;
+
 2-Entrará na pagina inicial.
+
+
+
 Resultado que esperamos de experiência do usuário:
+
 1 A primeira página a ser aberta será a página HOME
+
 2 Esta página contém os seguintes MENUS : 
+
+
 HOME
+
 CADASTRO
+
  LOGIN/INSCREVA-SE
+ 
 USUÁRIO
+
 DENÚNIAS
 
+
 3 A página “HOME” contem os itens: 
+
 -Quem Somos (detalhando sobre nosso interesse em preservar o meio ambiente  e como surgiu o projeto.
+
+
 -Faça Sua Denúncia , onde contamos sobre a importância de todo cidadão tem em denunciar qualquer crime ambiental;
+
+
 -Cadastre Aqui Sua Denúncia: o usuário poderá clicar e abrirá a tela do cadastro.
 
 
