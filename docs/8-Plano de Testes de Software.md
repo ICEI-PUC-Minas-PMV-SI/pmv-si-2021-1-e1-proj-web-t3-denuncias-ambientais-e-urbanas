@@ -54,7 +54,7 @@ CADASTRO
  
 USUÁRIO
 
-DENÚNIAS
+DENÚNCIAS
 
 
 3 A página “HOME” contem os itens: 
