@@ -32,4 +32,4 @@ Os pontos a serem melhorados e avaliados futuramente, são testes em demais OS c
 Em relaçao ao teste de Contigencia, nos buscamos contornar possiveis erros atravez de backups a cada atualizaçao em nosso sistema,
 e tamebem fazer o teste nos proprios backups, para o caso de haver a necessidade deles serem ultilizados em algum tipo de imprevisto, eles estarem funcionando corretamente,
 desta forma teremos como contornar possiveis situaçoes adiversas.
-![plano-de-contingencia-continuidade-ou-recuperacao-de-desastres-quais-as-diferencas-entre-eles-1000x445](https://user-images.githubusercontent.com/81424548/123555196-98789580-d75a-11eb-99ac-438701e7b3de.jpeg)
+
