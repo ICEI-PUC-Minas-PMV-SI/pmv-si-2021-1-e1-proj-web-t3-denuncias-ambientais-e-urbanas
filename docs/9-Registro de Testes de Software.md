@@ -5,6 +5,15 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
+4 - Teste de Funcionalidade: Configuração
+
+Teste em Software: A aplicação para desktop “VerdePerto” tem o propósito de ter seu acesso compatível com diversos browsers como Chrome, Internet Explorer, Microsoft Edge e Firefox, cumprindo todos os requisitos presentes de funcionalidade podendo ser aprovado no teste de configuração de software. Se a máquina do usuário apresentar alguma falta de update de software, a aplicação web poderá falhar. Para evitar este tipo de falha, é sugerido variados testes em diversas versões de navegadores para determinar os requisitos necessários para o bom funcionamento, prosseguindo assim com o restante dos testes de funcionalidade.
+
+![032316_1245_Configurati2](https://user-images.githubusercontent.com/81633523/123529942-cd89d700-d6cb-11eb-8aed-03178f562151.png)
+
+Teste em Hardware: O teste de configuração de hardware é normalmente realizado em laboratórios onde máquinas físicas são usadas com vários hardwares conectados a elas. Este teste visa verificar o funcionamento adequado do sistema em diferentes configurações de hardware/software, testando compatibilidade de hardware/software, configuração do servidor, tipos de conexão com internet.
+
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
