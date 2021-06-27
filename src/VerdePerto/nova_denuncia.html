@@ -1,182 +1,325 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+<title>CSS Formulario Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+    
+  function limpa_formulário_cep() {
+          //Limpa valores do formulário de cep.
+          document.getElementById('rua').value=("");
+          document.getElementById('bairro').value=("");
+          document.getElementById('cidade').value=("");
+          document.getElementById('uf').value=("");
+          document.getElementById('ibge').value=("");
+  }
 
-		<meta charset="utf-8">
-        <title>VerdePerto - Nova Denúncia</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	</head>   
-    <body>
-        <header>
-            <h1>VerdePerto</h1>
-            <div id="topo">
-                <ul id="navegacao">
-                    <li class="primeiro">
-                        <a id="home" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a id="denuncia" href="denuncia.html">Denuncias</a>
-                    </li>
-                    <li>
-                        <a id="novaDenuncia" href="nova_denuncia.html">Nova Denúncia</a>
-                    </li>
-                    <li>
-                        <a id="Login" href="cadastro.html">Login/Increva-se</a>
-                    </li>
-                    <li>
-                        <a id="usuario" href="pagina_do_usuario.html">Minha página</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-
-        <br> 
-        <div class="corpo">
-            <h1> Cadastrar nova denúncia</h1><br><br>
-        </div>
-
-
-        <div class="content">
-          
-            <div class="row">
-    
-                <div class="col-12">
-                    <form>
-
-                        <input type="checkbox" id="anonimo"
-                        style="text-align: center;"
-                         name="Fazer uma denuncia anônima"> 
-                        Fazer uma denúncia anônima <br><br><br>
-
-                        <div class="addNotas">  
-                             
-                           Denúncia:  
-                           <input type="text" id="note" 
-                            name="Escreva sua denúncia!" 
-                            style="width: 600px; height: 40px;" 
-                            placeholder=" Insira o sua denúncia!"/>  <br><br>
-
-                            <div id="onde"> Onde ocorreu a infração? </div><br>
-
-                            Logradouro <br> <input type="text" id="note" 
-                            name="Rua" 
-                            style="width: 400px; height: 20px;" 
-                            placeholder=" Nome da rua..."/> <br><br>
-                            
-                            <input type="number" id="note" 
-                            name="Número" 
-                            style="width: 400px; height: 20px;" 
-                            placeholder=" Número"/><br><br>
-
-                            <input type="text" id="note" 
-                            name="Bairro" 
-                            style="width: 400px; height: 20px;" 
-                            placeholder=" Nome do bairro"/> <br><br>
-
-                            <select>
-                                <option> Belo Horizonte</option>
-                                <option> Betim</option>
-                                <option>Contagem</option>
-                            </select>
-                            <br><br>
-                            
-                            <input type="number" id="note" 
-                            name="CEP" 
-                            style="width: 400px; height: 20px;" 
-                            placeholder="CEP"/>
-
-                            <br><br><br>
-                            
-                            <input type="button" 
-                            id="buttonAddNote"
-                            value= "Adicionar nova denuncia"                        
-                            onclick="addNote();"
-                            />   <br><br>   
-                        </div>
-                   </form>
-    
-                </div>
-    
-            </div>
-        </div>
-    
-        <div class="row">
-    
-            <div class="col-12">
-    
-                <div class="notesBox">
-    
-                    <ol id="itensLista"> <br>
-                    </ol>
-    
-                </div>
-    
-        </div><br><br>
-    </div>  <br><br>
-    
-    <span id="conteudo"></span>
-    
-    
-    
-    <script type="text/javascript" src="app.js"></script>
-    
-    
-    <script type="text/javascript">
-    
-        var ol = document.getElementById("itensLista");
-        var li;
-        var item;
-        var itemId;
-    
-        addNote = function() {
-            let item;
-            if (document.getElementById("note").value != "") {
-                item = document.getElementById("note");
-                itemId = ol.childElementCount;
-                li = createNote(item.value,itemId);
-                li.appendChild(createDeleteNoteButton(itemId));
-                ol.appendChild(li)
-                item.value = "";
-                isertNotes(item.value); 
-            }
-    
-        }
-        
-        deleteNote = function(itemId) {
-            for (i = 0; i < ol.children.length; i++) {
-                if(ol.children[i].getAttribute("index")== itemId){
-                    ol.children[i].remove();
-                }
-            }
-        
-        }
-        
-        createNote = function(itemValue, itemId) {
-            let li = document.createElement("li");
-            li.setAttribute("index", itemId);
-            li.appendChild(document.createTextNode(itemValue));
-            return li;
-        }
-        
-        createDeleteNoteButton = function(itemId) {
-            let button = document.createElement("button");
-            button.setAttribute("onclick", "deleteNote("+itemId+")");
-            button.innerHTML = "X";
-            return button;   
-        }
-  
-  
-        </script>
+  function meu_callback(conteudo) {
+      if (!("erro" in conteudo)) {
+          //Atualiza os campos com os valores.
+          document.getElementById('rua').value=(conteudo.logradouro);
+          document.getElementById('bairro').value=(conteudo.bairro);
+          document.getElementById('cidade').value=(conteudo.localidade);
+          document.getElementById('uf').value=(conteudo.uf);
+          document.getElementById('ibge').value=(conteudo.ibge);
+      } //end if.
+      else {
+          //CEP não Encontrado.
+          limpa_formulário_cep();
+          alert("CEP não encontrado.");
+      }
+  }
       
+  function pesquisacep(valor) {
 
+      //Nova variável "cep" somente com dígitos.
+      var cep = valor.replace(/\D/g, '');
 
+      //Verifica se campo cep possui valor informado.
+      if (cep != "") {
 
+          //Expressão regular para validar o CEP.
+          var validacep = /^[0-9]{8}$/;
 
-		<div id="container-rodape" style="clear: both;">
-			<div id="rodape">
-				&copy; Copyright VerdePerto - Bárbara, Caroline, Krysthyan, Pedro, Simone e Yuri - 2021
-		    </div>
+          //Valida o formato do CEP.
+          if(validacep.test(cep)) {
+
+              //Preenche os campos com "..." enquanto consulta webservice.
+              document.getElementById('rua').value="...";
+              document.getElementById('bairro').value="...";
+              document.getElementById('cidade').value="...";
+              document.getElementById('uf').value="...";
+              document.getElementById('ibge').value="...";
+
+              //Cria um elemento javascript.
+              var script = document.createElement('script');
+
+              //Sincroniza com o callback.
+              script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
+
+              //Insere script no documento e carrega o conteúdo.
+              document.body.appendChild(script);
+
+          } //end if.
+          else {
+              //cep é inválido.
+              limpa_formulário_cep();
+              alert("Formato de CEP inválido.");
+          }
+      } //end if.
+      else {
+          //cep sem valor, limpa formulário.
+          limpa_formulário_cep();
+      }
+  };
+
+  </script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100px;
+  background-image: linear-gradient(90deg, rgb(241, 213, 170), rgb(207, 240, 187));
+  
+}
+
+/* Style the header */
+.header {
+  background-color: #daccccda;
+  padding: 20px;
+  text-align: center;
+  height: 30%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(226, 146, 53);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+/* se der errado deleta */
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 20%;
+  float: left;
+  padding: 15px;
+  border: 1px solid rgb(255, 255, 255);}
+  
+}
+    
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* boxes com imagens */
+  .container {
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(3, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 300px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 57px 57px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 50px 50px;
+  }
+  .box {
+    background-color: rgb(255, 255, 255);
+  }
+
+</style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img class="logo" src="testelogo2.png" width="170" height="90" alt="lupa na arvore" />
+      <h5>Olhando pelo meio ambiente!</h5>
+    </div>
+    
+    <div class="topnav">
+      <a href="#">&nbsp;&nbsp;QUEM SOMOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      <a href="#">&nbsp;&nbsp;FAÇA SUA DENÚNCIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="#">CONSULTAR DENÚNCIAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="#">CADASTRE-SE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="#">MINHA PÁGINA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+    </div>
+
+    
+    <fieldset>
+
+      <h3>Seus Dados (Caso queira anonimato, não preencher):</h3>
+      
+      <p>Denunciante:
+        <input type="text" required name="name" size="20" maxlength="40" id="fname" placeholder="Bárbara"><br>
+      </p>		
+      
+      <p>Telefone: DDD (
+        <input type="tel" required name="ddd" size="1" maxlength="2" id="ddd"placeholder="DDD">)
+        Tel:<input type="tel" required name="telefone" size="5" maxlength="10" id="tel" placeholder="telefone">
+        
+      </p>
+      <p>E-mail:
+        <input type="email" required name="email" size="20" maxlength="40" id="email" placeholder="aaa@aaa.com" ><br>
+      </p>
+    </fieldset>
+
+    <fieldset>
+
+      <h3>Informações da Denúncia:</h3>
+      
+      <form method="get" action=".">
+
+        <p><label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" placeholder="Digite o CEP"
+               onblur="pesquisacep(this.value);" /></label><br /></p>
+        <p><label>Rua:
+        <input name="rua" type="text" id="rua" size="60" /></label><br /></p>
+      <p><label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br /></p>
+        <p><label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br /></p>
+        <p><label>Estado:
+        <input name="uf" type="text" id="uf" size="2" /></label><br /></p>
+        <label>IBGE: 
+        <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+        
+        <br>
+        <form action="add.php" method="POST" name="form1">
+          
+          <div class="w3-section">
+            <label>Horário da Ocorrência</label>
+            <input class="w3-input w3-border" placeholder="00h00min" type="text" name="hora" required><p>
+                          </p>
+          </div>
+          
+          <div class="w3-section">
+            <label>Data da Ocorrência</label>
+            <input class="w3-input w3-border" value="<?php echo date('Y-m-d');?>" type="date"  name="data" required>
+          </div>
+          
+        </form>  
+        </form>
+
+<div class="principal">
+        <div class="Tipo de Denúncia">
+        <p> TIPO DE DENÚNCIA: <br />
+          <select name="denuncia">
+              <option value="valor1">INCÊNDIO/QUEIMADAS</option>
+              <option value="valor2">CRIME CONTRA ANIMAIS DOMÉSTICOS</option>
+              <option value="valor3">DESMATAMENTO/PODA ILEGAL</option>
+              <option value="valor4">POLUIÇÃO DOS RECURSOS HÍDRICOS</option>
+              <option value="valor5">DESCARTE IRREGULAR DE LIXO</option>
+              <option value="valor6">PESCA ILEGAL</option>
+              <option value="valor7">DANOS AO PATRIMÔNIO PÚBLICO</option>
+              <option value="valor8">POLUIÇÃO DOS SOLOS</option>
+              <option value="valor9">DESTRUIÇÃO DE MORROS</option>
+              <option value="valor10">EXTRAÇÃO MINERAL ILEGAL</option>
+              <option value="valor11">DESCARTE LIXO RADIOATIVO/NUCLEAR</option>
+              <option value="valor12">CARRO ABANDONADO </option>
+              <option value="valor13">CRIME CONTRA ANIMAIS SILVESTRES</option>
+          </select>
+        </p>
         </div>
-    </body>
-</html>
+           <br>   
+        <fieldset>
+
+          <legend>Anexar Imagem</legend>
+
+          <div class="form-group field-denuncia-anexos">
+      <label class="control-label" for="denuncia-anexos">Anexos</label>
+      
+      <input type="hidden" name="Denuncia[anexos][]" value=""><div class="file-input file-input-new"><div class="file-preview ">
+      <div class="close fileinput-remove">×</div>
+      <div class="file-drop-disabled">
+      <div class="file-preview-thumbnails">
+      </div>
+      <div class="clearfix"></div>    <div class="file-preview-status text-center text-success"></div>
+      <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+      </div>
+      </div>
+      <div class="kv-upload-progress hide"><div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+      0%
+      </div>
+      </div></div>
+      <div class="input-group file-caption-main">
+      <div tabindex="500" class="form-control file-caption  kv-fileinput-caption">
+      <div class="file-caption-name"></div>
+      </div>
+      
+      <div class="input-group-btn">
+      <button type="button" tabindex="500" title="Remover ficheiros seleccionados" class="btn btn-default fileinput-remove fileinput-remove-button"><i class="glyphicon glyphicon-trash"></i>  <span class="hidden-xs">Remover</span></button>
+      <button type="button" tabindex="500" title="Abortar carregamento " class="btn btn-default hide fileinput-cancel fileinput-cancel-button"><i class="glyphicon glyphicon-ban-circle"></i>  <span class="hidden-xs">Cancelar</span></button>
+      <button type="submit" tabindex="500" title="Carregar ficheiros seleccionados" class="btn btn-default fileinput-upload fileinput-upload-button"><i class="glyphicon glyphicon-upload"></i>  <span class="hidden-xs">Carregar</span></button><p>
+
+      </p>
+      <div tabindex="500" class="btn btn-primary btn-file"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;  <span class="hidden-xs">Procurar…</span><input type="file" id="denuncia-anexos" class="" name="Denuncia[anexos][]" multiple="" data-krajee-fileinput="fileinput_81f71ed5"></div>
+      </div>
+      </div></div>
+      <!--[if lt IE 10]><br><div class="alert alert-warning"><strong>Nota:</strong> Seu navegador não suporta pré-visualização e upload de múltiplos arquivos. Teste em outro navegador mais atualizado.</div><script>document.getElementById("denuncia-anexos").className.replace(/\bfile-loading\b/,"");;</script><![endif]-->
+      
+      <div class="help-block"></div>
+      
+      </div>                </fieldset>
+      
+      <div class="form-group"> <p>
+          <button type="submit" class="btn btn-success">Enviar Sua Denúncia</button>                </div> </p>
+
+      </div>
+    </fieldset>
+
+</body>
