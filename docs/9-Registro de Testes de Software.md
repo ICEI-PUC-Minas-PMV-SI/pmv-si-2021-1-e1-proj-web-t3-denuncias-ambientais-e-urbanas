@@ -16,7 +16,12 @@ Teste em Hardware: O teste de configuração de hardware é normalmente realizad
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+
+4 - Teste de Funcionalidade: Configuração 
+
+Em relação ao teste de desempenho do sistema, os resultados são positivos em OS 64 bits processador baseado em x64 e Windows 10 Home. Foi testado no Chrome brower e a máquina responsável pelo teste possui todos os requisitos necessários para abrir a página HTML e rodar JavaScript com sucesso, responsivamente. 
+
+Os pontos a serem melhorados e avaliados futuramente, são testes em demais OS como Linux e IOS, além do teste de funcionalidade em outros browsers como Microsof Edge, Firefox, Safari.
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
