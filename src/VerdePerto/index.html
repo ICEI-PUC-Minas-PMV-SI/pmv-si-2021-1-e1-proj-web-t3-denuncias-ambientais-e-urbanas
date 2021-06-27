@@ -1,48 +1,226 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta charset="utf-8">
-        <title>VerdePerto - Home</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-	</head>   
-    <body>
-        <header>
-            <h1>VerdePerto</h1>
-            <div id="topo">
-                <ul id="navegacao">
-                    <li class="primeiro">
-                        <a id="home" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a id="denuncia" href="denuncia.html">Denuncias</a>
-                    </li>
-                    <li>
-                        <a id="novaDenuncia" href="nova_denuncia.html">Nova Denúncia</a>
-                    </li>
-                    <li>
-                        <a id="Login" href="cadastro.html">Login/Increva-se</a>
-                    </li>
-                    <li>
-                        <a id="usuario" href="pagina_do_usuario.html">Minha página</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
+body {
+  margin: 0;
+}
 
-     
-        <div id="corpo">
+/* Style the header */
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  height: 53%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(226, 146, 53);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+/* se der errado deleta */
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 20%;
+  float: left;
+  padding: 15px;
+  border: 1px solid rgb(255, 255, 255);}
+  
+}
+    
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* boxes com imagens */
+  .container {
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(3, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 300px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 57px 57px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 50px 50px;
+  }
+  .box {
+    background-color: rgb(255, 255, 255);
+  }
+
+</style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img class="logo" src="testelogo2.png" width="600" height="300" alt="lupa na arvore" />
+      <h3>Olhando pelo meio ambiente!</h3>
+    </div>
+    
+    <div class="topnav">
+      <a href="#">&nbsp;&nbsp;QUEM SOMOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      <a href="#">&nbsp;&nbsp;FAÇA SUA DENÚNCIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="#">CONSULTAR DENÚNCIAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="#">CADASTRE-SE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="#">MINHA PÁGINA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+    </div>
+
+      <h1>
+        POR QUE EXPOR AS IRREGULARIDADES AMBIENTAIS QUE OCORREM EM SUA CIDADE?<br>                                                                                                                                    
+      </h1>
+    
+    <div class="container">
+        <div class="box"> MEIO AMBIENTE BEM CUIDADO É SINÔNIMO DE QUALIDADE DE VIDA!<BR>
+            <P></P>  
+            <img class="quatro" src="arvore.png" width="200" height="200">
+        </div>
+        <div class="box"> CIDADANIA É FISCALIZAR E DENUNCIAR IRREGULARIDADES AMBIENTAIS!
+            <p></p>
+            <img class="quatro" src="cidadao.png"width="200" height="200">
+        </div>
+        <div class="box">CUIDAR DOS ANIMAIS É ESSENCIAL PARA GARANTIR O EQUILÍBRIO E MANUTENÇÃO DO NOSSO ECOSSISTEMA!
+            <p></p>
+            <img class="quatro" src="fauna.png"width="200" height="200">
+        </div>
+        <div class="box"> PROTEGER MATAS COMBATE O AQUECIMENTO GLOBAL, DEIXA O AR MAIS PURO E PRESERVA BIOMAS!
+            <p></p>
+            <img class="quatro" src="natureza.png"width="200" height="200">
+        </div>
+        <div class="box">CUIDAR DA NATUREZA DE FORMA SUSTENTÁVEL GARANTE O FUTURO DAS PRÓXIMAS GERAÇÕES!
+            <p></p>
+            <img class="quatro" src="sustentavel.png"width="200" height="200">
+        </div>
+        <div class="box"> A UNIÃO FAZ A FORÇA! SEM TEMPO PARA DEGRADAÇÃO. A PRESERVAÇÃO DO MEIO AMBIENTE DEPENDE DE CADA UM DE NÓS. <BR>
+            <p></p>
+            <img class="quatro" src="uniao.png"width="200" height="200">
+        </div>
+             
+      </div>
+      
+      <div class="divisor">
+        <img class="section" src="quemsomos.png" 
+    </div>
+      
+      <div class="divisor">
+        <img class="section" src="suadenuncia.png" 
+    </div>
+      
+
+      <div class="divisor">
+        <img class="section" src="denunciaraqui.jpg" 
+      </div>
+
+
+      <div class="row">
+        <div class="column side">
+          <h2>Quem pode fazer a denúncia</h2>
+          <p>Apesar de toda a sociedade se beneficiar com os cuidados ao meio ambiente, nosso púbico alvo refere-se a
+              moradores do Estado de Minas Gerais na faixa etária de 18 aos 50 anos, jovens e adultos sem restrições
+              de classe social e sem delimitação de escolaridade. Trata-se de cidadãos interessados na manutenção e
+              preservação do meio ambiente no Estado de Minas Gerais, incomodados com a frequente incidência de
+              ilegalidades ambientais e a quem recorrer para solução de tais infrações.
+          </p>
+        </div>
         
+        <div class="column middle">
+          <h2>Porque denunciar</h2>
+          <p>Desde a criação da Secretaria Especial do Meio Ambiente - SEMA, pelo Decreto nº 73.030, de 30 de
+              outubro de 1973, percebe-se a preocupação governamental em se integrar a população nas discussões
+              ambientais. Com isso, vem-se fomentando a proposta para a participação popular durante as discussões
+              a respeito de assuntos ambientais, em busca assim de um engajamento popular a respeito de sua
+              preservação.
+              Considerado, portanto, algo essencial para a vida de todos, trata-se de dever global que o ambiente
+              seja preservado, tornando obrigação de qualquer pessoa, não so a de fazer a sua parte, como a de
+              fiscalizar a ação dos demais.
+              Com este intuito então, propõe-se então um portal de fácil acesso para que a comunidade, ao
+              vislumbrar qualquer transgressão ambiental consiga direcionar uma denúncia.
+              <a href="https://www.ibflorestas.org.br/conteudo/leis-ambientais" target="_blank">Leis</a>
+                  
+          </div>
+        
+        <div class="column side">
+          <h2>Icentivamos a denúncia</h2>
+          <p>É sabido que no espaço geográfico é onde acontecem as relações humanas sendo influenciadas e
+              influenciando diretamente o meio ambiente. As irregularidades ambientais como a degradação do meio
+              ambiente são tidas como um reflexo do crescimento desenfreado das cidades de forma rápida e pouco
+              planejada. Este crescimento do espaço geográfico ( urbano e rural), causa danos ao meio ambiente e
+              nem sempre estes danos são fiscalizados ou detectados por órgãos competentes. Por isso, a exposição
+              dos problemas ambientais é um passo para se conseguir a atenção dos cidadãos e entidades civís, indo
+              de encontro ao propósito cada vez mais almejado no mundo por promover a preservação do meio ambiente
+              e garantir para gerações futuras os mesmos recursos naturais que hoje nos são abundantes.
+              Através da exposição dos problemas ambientais idealizamos a curto, médio ou longo prazo solução para
+              todas as denúncias ambientais. Este projeto não é somente ferramenta para captção de denúncias, mas
+              também um meio para fazer com que as ocorrências cheguem às autarquias responsáveis pelos processos
+              de recuperação, manutenção e fiscalização ambiental.</p>
         </div>
 
+      <div id="rodape">
+        &copy; Copyright VerdePerto - Bárbara, Caroline, Krysthyan, Pedro, Simone e Yuri - 2021
+    </div>
+
+  
 
 
-
-		<div id="container-rodape" style="clear: both;">
-			<div id="rodape">
-				&copy; Copyright VerdePerto - Bárbara, Caroline, Krysthyan, Pedro, Simone e Yuri - 2021
-		    </div>
-        </div>
-    </body>
-</html>
+</body>
