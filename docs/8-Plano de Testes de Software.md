@@ -26,55 +26,37 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 
 Pré- condições:
-Computador com acesso a internet;
 
-Navegador versão compatível com HTML
+- Computador com acesso a internet;
+
+- Navegador versão compatível com HTML
 
 Procedimento:
 
 
-1-Acessar o site através do link;
+1- Acessar o site através do link;
 
-2-Entrará na pagina inicial.
+2- Entrará na pagina inicial.
 
 
 
 Resultado que esperamos de experiência do usuário:
 
-1 A primeira página a ser aberta será a página HOME
+1) A primeira página a ser aberta será a página HOME. Nesta interface o usuário poderá saber mais sobre as leis ambientais, endereços eletrônicos e sites que abordem assuntos sobre a temática de "denúncias ambientais" e "leis ambientais" no Estado de Minas Gerais.
 
-2 Esta página contém os seguintes MENUS : 
+Esta página HOME/INDEX contém os seguintes MENUS horizontais com algumas opções no primeiro nível: 
 
+QUEM SOMOS | FAÇA SUA DENÚNCIA | CONSULTAR DENÚNCIAS | CADASTRE-SE | MINHA PÁGINA
 
-HOME
+-Quem Somos: detalhando sobre nosso interesse em preservar o meio ambiente e como surgiu o projeto;
+-Faça Sua Denúncia: usuário cadastra denúncia se tiver feito login, senão terá que se cadastrar;
+-Consultar Denúncia: Banco de dados de consulta pública de todas as denúncias realizadas por qualquer usuário registrado, mantendo anonimato;
+-Cadastre-se: Na interface do cadastro, usuário criará login e senha e será direcionado para começar a preencher sua denúncia em outra página que será aberta, onde ele terá a opção de faze-la anonimamente ou não;
+-Minha Página: Página do usuário com as denúncias realizadas pelo mesmo;
 
-CADASTRO
+Observações: Ao acessar novamente, futuramente,  o usuário entrará no link do site e se houver nova denúncia a fazer ele será direcionado para a página “LOGIN E SENHA” e não mais para a página do cadastro.
 
- LOGIN/INSCREVA-SE
- 
-USUÁRIO
-
-DENÚNCIAS
-
-
-3 A página “HOME” contem os itens: 
-
--Quem Somos (detalhando sobre nosso interesse em preservar o meio ambiente  e como surgiu o projeto.
-
-
--Faça Sua Denúncia , onde contamos sobre a importância de todo cidadão tem em denunciar qualquer crime ambiental;
-
-
--Cadastre Aqui Sua Denúncia: o usuário poderá clicar e abrirá a tela do cadastro.
-
-
-4  Na tela do cadastro ele criará seu login e senha e será direcionado para começar a preencher sua denúncia em outra página que será aberta, onde ele terá a opção de faze-la anonimamente ou não.
-
-5 Ao preencher e envia sua denúncia ele poderá visualiza-la e acompanha-a na página do usuário. Nesta página, o usuário poderá saber mais sobre as leis ambientais, endereços e sites da prefeitura e também dos órgãos fiscalizadores.
-
-6 Ao acessar novamente, futuramente,  o usuário entrará no link do site e se houver nova denúncia a fazer ele será direcionado para a página “LOGIN E SENHA” e não mais para a página do cadastro.
-
-OBS: Todas as páginas devem se adequar  a  alteração de tamanho da tela.
+OBS: Todas as páginas devem se adequar a  alteração de tamanho da tela.
  
 ## Ferramentas de Testes (Opcional)
 
