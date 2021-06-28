@@ -1,87 +1,91 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="pt-br">
+  <head>
+    <title>Cadastre-se</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-		<meta charset="utf-8">
-        <title>VerdePerto - Cadastro</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
 
-	</head>   
-    <body>
-        <header>
-            <h1>VerdePerto</h1>
-            <div id="topo">
-                <ul id="navegacao">
-                    <li class="primeiro">
-                        <a id="home" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a id="denuncia" href="denuncia.html">Denuncias</a>
-                    </li>
-                    <li>
-                        <a id="novaDenuncia" href="nova_denuncia.html">Nova Denúncia</a>
-                    </li>
-                    <li>
-                        <a id="Login" href="cadastro.html">Login/Increva-se</a>
-                    </li>
-                    <li>
-                        <a id="usuario" href="pagina_do_usuario.html">Minha página</a>
-                    </li>
-                </ul>
+    <div class="header">
+      <img class="logo" src="images/testelogo2.png" width="600" height="300" alt="lupa na arvore" />
+      <h3>Olhando pelo meio ambiente!</h3>
+    </div>
+    
+    <div class="topnav">
+        <a href="quem-somos.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          QUEM SOMOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+        <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspFAÇA SUA DENÚNCIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="denuncias.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONSULTAR DENÚNCIAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="cadastro.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CADASTRE-SE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MINHA PÁGINA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+      </div>
+
+      
+    <p><img src="images/cadastro2.jpg" align="left" height="620" width="150">
+        <p><img src="images/cadastro2.jpg" align="right" height="620" width="150">
+
+    <br>
+
+    <div class="wrapper">
+        <div class="registration_form">
+            <div class="title">
+                Login
             </div>
-        </header>
-
-        <br>   
-
-        
-        <div class="corpo">
-            <h1 style="margin: 0;"> Faça seu cadastro e registre sua <br>
-            <h1 style="margin: 0;">denúncia</h1> <br><br><br>
+    
+            <form>
+                <div class="form_wrap">
+                    <div class="input_grp">
+                        <div class="input_wrap">
+                            <div class="input_wrap">
+                            <label for="fname">Usuario</label>
+                            <input type="text" id="fname">                    
+                        </div>
+                            <div class="input_wrap" >
+                                <label for="Senha">Senha</label> 
+                                <input type="password" id="Senha"> 
+                        </div>
+                        <div class="input_wrap">
+                            <label for="CSenha">Confirmar Senha</label> 
+                            <input type="password" id="Senha">   
+                            <div class="input_wrap">
+                                
+                                <input type="submit" value="Entrar" Class="submit_btn">
+                            </div>
+                        </div>
+                           
+                        <div class="title">
+                             CADASTRE-SE
+                            </div>
+                            <label for="fname">Nome</label>
+                            <input type="text" id="fname">                    
+                        </div>
+                        <div class="input_wrap">
+                            <label for="1name">Sobrenome</label>
+                            <input type="text" id="1name">                    
+                        </div>
+                        <div class="input_wrap">
+                            <label for="email">E-mail</label> 
+                            <input type="text" id="email">                    
+                        </div>
+                      <div>
+                    <div class="input_wrap">
+                        <input type="submit" value="Registrar Agora" Class="submit_btn">
+                    </div>
+                </div> 
+            
+            </form>
         </div>
-
-        <div class="login">
-            <h4 style="margin: 0;"> Caso já possua uma conta, faça seu</h4><a id="login" href="login.html">Login</a><br> <br><br>
-        </div>
-
-
-        <div id ="cadastro">
-         Nome:  
-         <input type="text" id="nome" 
-         name="Nome" 
-         style="width: 600px; height: 20px;" 
-         placeholder=" Insira seu nome completo"/>  <br><br>
-
-         CPF: <input type="CPF" id="CPF" 
-         name="CPF" 
-         style="width: 600px; height: 20px;" 
-         placeholder="CPF"/> <br><br>
-         
-         E-mail: <input type="email" id="E-mail" 
-         name="E-mail" 
-         style="width: 600px; height: 20px;" 
-         placeholder=" E-mail"/><br><br>
-
-         Senha: <input type="password" id="senha" 
-         name="senha" 
-         style="width: 200px; height: 20px;" 
-         placeholder="Senha"/> 
-         
-         Confirme sua senha: <input type="password" id="senha" 
-         name="senha" 
-         style="width: 200px; height: 20px;" 
-         placeholder="Confirme a senha"/>
-         <br><br><br>
-         
-         <input type="button" 
-         id="buttonAddNote"
-         value= "Finalizar Cadastro"                        
-         />
-        </div>
-
-		<div id="container-rodape" style="clear: both;">
-			<div id="rodape">
-				&copy; Copyright VerdePerto - Bárbara, Caroline, Krysthyan, Pedro, Simone e Yuri - 2021
-		    </div>
-        </div>
-    </body>
-</html>
+    </div>
+    </div>
+    </div>
+ 
+</body>
+<footer>
+  <div id="rodape">
+      &copy; Copyright VerdePerto - Bárbara, Caroline, Krysthyan, Pedro, Simone e Yuri - 2021
+  </div>
+</footer>
