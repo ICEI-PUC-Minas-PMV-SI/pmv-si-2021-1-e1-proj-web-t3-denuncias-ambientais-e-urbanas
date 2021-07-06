@@ -1,4 +1,8 @@
 ![image](https://user-images.githubusercontent.com/81633523/124536350-379e2c80-ddee-11eb-9497-90bc8682cdaa.png)
+![image](https://user-images.githubusercontent.com/81633523/124536440-674d3480-ddee-11eb-9198-f711cddf8929.png)
+![image](https://user-images.githubusercontent.com/81633523/124536504-7d5af500-ddee-11eb-8d71-3fde45908145.png)
+![image](https://user-images.githubusercontent.com/81633523/124536547-8ea40180-ddee-11eb-98fa-fa0b9ab2b43f.png)
+
 # Registro de Testes de Software
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
