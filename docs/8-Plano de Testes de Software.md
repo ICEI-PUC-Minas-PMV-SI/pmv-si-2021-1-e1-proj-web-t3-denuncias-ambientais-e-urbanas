@@ -56,7 +56,9 @@ QUEM SOMOS | FAÇA SUA DENÚNCIA | CONSULTAR DENÚNCIAS | CADASTRE-SE | MINHA P�
 
 Observações: Ao acessar novamente, futuramente,  o usuário entrará no link do site e se houver nova denúncia a fazer ele será direcionado para a página “LOGIN E SENHA” e não mais para a página do cadastro.
 
-OBS: Todas as páginas devem se adequar a  alteração de tamanho da tela.
+OBS: Todas as páginas devem se adequar a  alteração de tamanho da tela.[Planilha_Avaliação_Usabilidade-para o git.xlsx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-denuncias-ambientais-e-urbanas/files/6766858/Planilha_Avaliacao_Usabilidade-para.o.git.xlsx)
+[Planilha_Avaliação_Usabilidade-para o git.xlsx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-denuncias-ambientais-e-urbanas/files/6766861/Planilha_Avaliacao_Usabilidade-para.o.git.xlsx)
+
  
 ## Ferramentas de Testes (Opcional)
 
