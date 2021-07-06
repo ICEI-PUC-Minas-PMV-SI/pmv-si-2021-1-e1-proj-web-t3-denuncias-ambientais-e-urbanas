@@ -5,4 +5,5 @@
 Relatório com evidências dos testes e relatos dos usuários participantes, baseado em um plano de testes pré-definido.
 
 > **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)[Planilha_Avaliação_Usabilidade-para o git.xlsx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-denuncias-ambientais-e-urbanas/files/6766926/Planilha_Avaliacao_Usabilidade-para.o.git.xlsx)
+
