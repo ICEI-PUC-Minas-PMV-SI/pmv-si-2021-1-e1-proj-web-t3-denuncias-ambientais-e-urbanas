@@ -31,6 +31,9 @@ Pré- condições:
 - Navegador versão compatível com HTML
 
 ![image](https://user-images.githubusercontent.com/81633523/124535804-243e9180-dded-11eb-808a-611d9ec83ebe.png)
+![image](https://user-images.githubusercontent.com/81633523/124535962-6f58a480-dded-11eb-80af-a3daed968027.png)
+![image](https://user-images.githubusercontent.com/81633523/124535999-839ca180-dded-11eb-8bf3-4697a1853a8c.png)
+
 
 
 
