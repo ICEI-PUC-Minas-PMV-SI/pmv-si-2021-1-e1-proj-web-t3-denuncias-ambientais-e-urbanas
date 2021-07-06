@@ -1,3 +1,4 @@
+[Planilha_Avaliação_Usabilidade-para o git.xlsx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-denuncias-ambientais-e-urbanas/files/6766995/Planilha_Avaliacao_Usabilidade-para.o.git.xlsx)
 # Registro de Testes de Software
 
 <span style="color:red">Pré-requisitos: <a href="7-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></span>, <a href="10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a>
