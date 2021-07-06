@@ -8,7 +8,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
  
  Tarefa	 Descrição					
  
-1- Caroline	Teste de Funcionalidade	![image](https://user-images.githubusercontent.com/81633523/124535730-06712c80-dded-11eb-86ae-1641adba6edc.png)
+1- Caroline	Teste de Funcionalidade
 
 
 2-Simone	Teste de Usabilidade	
