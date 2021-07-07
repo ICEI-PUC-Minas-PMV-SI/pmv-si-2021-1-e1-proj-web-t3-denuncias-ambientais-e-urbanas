@@ -1,3 +1,4 @@
+[Planilha_Avaliação_Usabilidade-para o git - Cópia.xlsx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-denuncias-ambientais-e-urbanas/files/6780497/Planilha_Avaliacao_Usabilidade-para.o.git.-.Copia.xlsx)
 [Planilha_Avaliação_Usabilidade-para o git.xlsx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-denuncias-ambientais-e-urbanas/files/6766995/Planilha_Avaliacao_Usabilidade-para.o.git.xlsx)
 # Registro de Testes de Software
 
