@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -11,6 +10,18 @@ body {
 .header {
   background-color: #f1f1f1;
   text-align: center;
+}
+
+.box-imagem {/*Style Upload Imagem Usuuario */
+
+  width: 25%;
+  float: left;
+  overflow: auto;
+  margin: 10px;
+}
+
+.box-imagem > img {
+  width: 100%
 }
 
 /* Style the top navigation bar */
@@ -109,7 +120,7 @@ html, body {
   }
   p{
     text-align:justify ;
-    margin: ;
+    margin:2cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 h1{
@@ -137,6 +148,32 @@ body {
   float:none;
 }
 
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
+
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -145,7 +182,7 @@ body {
 }
 
 .registration_form {
-  background: #43a33f;
+  background: #7cbb38;
   padding: 25px;
   border-radius: 5px;
   width: 600px;
@@ -222,5 +259,4 @@ footer{
   right:0px;
   width:300px;
 }
-
-
+ 
