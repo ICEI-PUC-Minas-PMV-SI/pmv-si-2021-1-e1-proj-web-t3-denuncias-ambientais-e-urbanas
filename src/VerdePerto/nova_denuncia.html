@@ -1,237 +1,293 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>Nova Denuncia</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<html lang="en">
 
-    <script>
+    <head>
     
-        function limpa_formulário_cep() {
-          //Limpa valores do formulário de cep.
-          document.getElementById('rua').value=("");
-          document.getElementById('bairro').value=("");
-          document.getElementById('cidade').value=("");
-          document.getElementById('uf').value=("");
-          document.getElementById('ibge').value=("");
-        }
-  
-        function meu_callback(conteudo) {
-            if (!("erro" in conteudo)) {
-                //Atualiza os campos com os valores.
-                document.getElementById('rua').value=(conteudo.logradouro);
-                document.getElementById('bairro').value=(conteudo.bairro);
-                document.getElementById('cidade').value=(conteudo.localidade);
-                document.getElementById('uf').value=(conteudo.uf);
-                document.getElementById('ibge').value=(conteudo.ibge);
-            } //end if.
-            else {
-                //CEP não Encontrado.
-                limpa_formulário_cep();
-                alert("CEP não encontrado.");
-            }
-        }
-            
-        function pesquisacep(valor) {
-  
-            //Nova variável "cep" somente com dígitos.
-            var cep = valor.replace(/\D/g, '');
-  
-            //Verifica se campo cep possui valor informado.
-            if (cep != "") {
-  
-                //Expressão regular para validar o CEP.
-                var validacep = /^[0-9]{8}$/;
-  
-                //Valida o formato do CEP.
-                if(validacep.test(cep)) {
-  
-                    //Preenche os campos com "..." enquanto consulta webservice.
-                    document.getElementById('rua').value="...";
-                    document.getElementById('bairro').value="...";
-                    document.getElementById('cidade').value="...";
-                    document.getElementById('uf').value="...";
-                    document.getElementById('ibge').value="...";
-  
-                    //Cria um elemento javascript.
-                    var script = document.createElement('script');
-  
-                    //Sincroniza com o callback.
-                    script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
-  
-                    //Insere script no documento e carrega o conteúdo.
-                    document.body.appendChild(script);
-  
-                } //end if.
-                else {
-                    //cep é inválido.
-                    limpa_formulário_cep();
-                    alert("Formato de CEP inválido.");
-                }
-            } //end if.
-            else {
-                //cep sem valor, limpa formulário.
-                limpa_formulário_cep();
-            }
-        };
-  
-      </script>
     
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Site Metas -->
+        <title>VerdePerto - Faça a diferença hoje</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <!-- Site Icons -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        
+        <!-- Design fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet"> 
+    
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+    
+        <!-- FontAwesome Icons core CSS -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+    
+        <!-- Responsive styles for this template -->
+        <link href="css/responsive.css" rel="stylesheet">
+    
+        <!-- Colors for this template -->
+        <link href="css/colors.css" rel="stylesheet">
+    
+        <!-- Version Garden CSS for this template -->
+        <link href="css/version/garden.css" rel="stylesheet">
+    
+   
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    
+    <div id="wrapper">
+        <div class="collapse top-search" id="collapseExample">
+            <div class="card card-block">
+                <div class="newsletter-widget text-center">
+                    <form class="form-inline">
+                        <input type="text" class="form-control" placeholder="What you are looking for?">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </form>
+                </div><!-- end newsletter -->
+            </div>
+        </div><!-- end top-search -->
+    
+        <div class="topbar-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs-down">
+                        <div class="topsocial">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Flickr"><i class="fa fa-flickr"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                        </div><!-- end social -->
+                    </div><!-- end col -->
+    
+                    <div class="col-lg-4 hidden-md-down">
+                    </div><!-- end col -->
+    
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="topsearch text-right">
+                            <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-search"></i> Search</a>
+                        </div><!-- end search -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end header-logo -->
+        </div><!-- end topbar -->
+    
+        <div class="header-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/version/verde-logo.png" alt=""></a>
+                        </div><!-- end logo -->
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end header-logo -->
+        </div><!-- end header -->
+    
+        <header class="header">
+            <div class="container">
+                <nav class="navbar navbar-inverse navbar-toggleable-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Forest Timemenu" aria-controls="Forest Timemenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-md-center" id="Forest Timemenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="index.html"><b>HOME</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="denuncia.html"><b>FAÇA A SUA DENÚNCIA</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="banco_dados.html"><b>CONSULTAR DENÚNCIAS</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="cadastro.html"><b>CADASTRE-SE</b></a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="login.html"><b>MINHA PÁGINA</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div><!-- end container -->
+        </header><!-- end header -->
+    
+   
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
-    <a href="cadastro.html" id="login">Login</a>
-    <div class="header">
-      <a href="index.html"><img class="logo" src="images/testelogo2.png" width="600" height="300" alt="lupa na arvore" /></a>
-      <h3>Olhando pelo meio ambiente!</h3>
-    </div>
-    
-    <div class="topnav">
-        <a href="quem-somos.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          QUEM SOMOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
-        <a href="nova-denuncia.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspFAÇA SUA DENÚNCIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <a href="denuncias.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONSULTAR DENÚNCIAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <a href="cadastro.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CADASTRE-SE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-       <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MINHA PÁGINA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
-      </div>
 
-      <br>
-    <div class="wrapper">
-        <div class="registration_form">
-            <div class="title">
-                NOVA DENUNCIA
-            </div> <br>
     
-            <fieldset>
 
-                <br><h3>Seus Dados (Caso queira anonimato, não preencher):</h3> <br>
-                
-                <p>Denunciante:
-                  <input type="text" required name="name" size="20" maxlength="40" id="fname" placeholder="Seu nome"><br>
-                </p><br>		
-                
-                <p>Telefone: DDD (
-                  <input type="tel" required name="ddd" size="1" maxlength="2" id="ddd"placeholder="DDD">)
-                  Tel:<input type="tel" required name="telefone" size="5" maxlength="10" id="tel" placeholder="telefone">
-                  
-                </p><br>
-                <p>E-mail:
-                  <input type="email" required name="email" size="20" maxlength="40" id="email" placeholder="aaa@aaa.com" ><br>
-                </p> <br>
-              </fieldset>
-          
-              <fieldset>
-                <br>
-                <h3>Informações da Denúncia:</h3> <br>
-                
-                <form method="get" action=".">
-          
-                  <p><label>Cep:
-                  <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" placeholder="Digite o CEP"
-                         onblur="pesquisacep(this.value);" /></label><br /></p><br>
-                  <p><label>Rua:
-                  <input name="rua" type="text" id="rua" size="40" /></label><br /></p>
-                <p><label>Bairro:&nbsp;&nbsp; 
-                  <input name="bairro" type="text" id="bairro" size="30" /></label><br /></p>
-                  <p><label>Cidade:
-                  <input name="cidade" type="text" id="cidade" size="30" /></label><br /></p>
-                  <p><label>Estado:
-                  <input name="uf" type="text" id="uf" size="2" /></label><br /></p>
-                  <label>IBGE:&nbsp;&nbsp; 
-                  <input name="ibge" type="text" id="ibge" size="8" /></label><br />
-                  
-                  <br>
-                  <form action="add.php" method="POST" name="form1">
-                    
-                    <div class="w3-section">
-                      <label>Horário da Ocorrência: </label>
-                      <input class="w3-input w3-border" placeholder="Hora" type="text" name="hora" required><p>
-                                    </p>
-                    </div>
-                    
-                    <div class="w3-section">
-                      <label>Data da Ocorrência: </label>
-                      <input class="w3-input w3-border" value="<?php echo date('Y-m-d');?>" type="date"  name="data" required>
-                    </div>
-                    
-                  </form>  
-                  </form>
-          
-          <div class="principal">
-                  <div class="Tipo de Denúncia"> <br>
-                  <p> TIPO DE DENÚNCIA: <br /><br>
-                    <select name="denuncia">
-                        <option value="valor1">INCÊNDIO/QUEIMADAS</option>
-                        <option value="valor2">CRIME CONTRA ANIMAIS DOMÉSTICOS</option>
-                        <option value="valor3">DESMATAMENTO/PODA ILEGAL</option>
-                        <option value="valor4">POLUIÇÃO DOS RECURSOS HÍDRICOS</option>
-                        <option value="valor5">DESCARTE IRREGULAR DE LIXO</option>
-                        <option value="valor6">PESCA ILEGAL</option>
-                        <option value="valor7">DANOS AO PATRIMÔNIO PÚBLICO</option>
-                        <option value="valor8">POLUIÇÃO DOS SOLOS</option>
-                        <option value="valor9">DESTRUIÇÃO DE MORROS</option>
-                        <option value="valor10">EXTRAÇÃO MINERAL ILEGAL</option>
-                        <option value="valor11">DESCARTE LIXO RADIOATIVO/NUCLEAR</option>
-                        <option value="valor12">CARRO ABANDONADO </option>
-                        <option value="valor13">CRIME CONTRA ANIMAIS SILVESTRES</option>
-                    </select>
-                  </p>
-                  </div>
-                     <br>   
-                  <fieldset>
-          
-                    <legend>Anexar Imagem</legend>
-          
-                    <div class="form-group field-denuncia-anexos">
-                <label class="control-label" for="denuncia-anexos">Anexos</label>
-                
-                <input type="hidden" name="Denuncia[anexos][]" value=""><div class="file-input file-input-new"><div class="file-preview ">
-                <div class="close fileinput-remove">×</div>
-                <div class="file-drop-disabled">
-                <div class="file-preview-thumbnails">
-                </div>
-                <div class="clearfix"></div>    <div class="file-preview-status text-center text-success"></div>
-                <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
-                </div>
-                </div>
-                <div class="kv-upload-progress hide"><div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                0%
-                </div>
-                </div></div>
-                <div class="input-group file-caption-main">
-                <div tabindex="500" class="form-control file-caption  kv-fileinput-caption">
-                <div class="file-caption-name"></div>
-                </div>
-                
-                <div class="input-group-btn">
-                <button type="button" tabindex="500" title="Remover ficheiros seleccionados" class="btn btn-default fileinput-remove fileinput-remove-button"><i class="glyphicon glyphicon-trash"></i>  <span class="hidden-xs">Remover</span></button>
-                <button type="button" tabindex="500" title="Abortar carregamento " class="btn btn-default hide fileinput-cancel fileinput-cancel-button"><i class="glyphicon glyphicon-ban-circle"></i>  <span class="hidden-xs">Cancelar</span></button>
-                <button type="submit" tabindex="500" title="Carregar ficheiros seleccionados" class="btn btn-default fileinput-upload fileinput-upload-button"><i class="glyphicon glyphicon-upload"></i>  <span class="hidden-xs">Carregar</span></button><p>
-          
-                </p>
-                <div tabindex="500" class="btn btn-primary btn-file"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;  <span class="hidden-xs">Procurar…</span><input type="file" id="denuncia-anexos" class="" name="Denuncia[anexos][]" multiple="" data-krajee-fileinput="fileinput_81f71ed5"></div>
-                </div>
-                </div></div>
-                <!--[if lt IE 10]><br><div class="alert alert-warning"><strong>Nota:</strong> Seu navegador não suporta pré-visualização e upload de múltiplos arquivos. Teste em outro navegador mais atualizado.</div><script>document.getElementById("denuncia-anexos").className.replace(/\bfile-loading\b/,"");;</script><![endif]-->
-                
-                <div class="help-block"></div>
-                
-                </div>                </fieldset>
-                
-                <div class="form-group"> <p>
-                    <button type="submit" class="btn btn-success">Enviar Sua Denúncia</button>                </div> </p>
-          
-                </div>
-              </fieldset>
-    </div>
-    </div>
+    <div class="page-title wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <h2><i class="fa fa-leaf bg-green"></i> Consultar Denúncias</h2>
+                </div><!-- end col -->
+                <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Minha Página</li>
+                    </ol>
+                </div><!-- end col -->                    
+            </div><!-- end row -->
+        </div><!-- end container -->
+<p>
+
+</p>
+<p>
+    <break>
+    </break>
+</p>
+
+<div id="conteudo">  <p>
+
+</p><p>
+
+</p>
+
  
+
+ </div>
+
+
+
+<div class="wrapper">
+    <div class="registration_form">
+        <div class="title" align=center>
+           <h4>Banco de dados para consulta pública</h4> <p>
+
+           </p>
+        </div>
+
+        <form>
+            <div class="form_wrap" align=center>
+                <div class="input_grp">
+                   
+                    <table align=center border="2">
+                        <tr>
+                            <th>Ocorrência</th>
+                            <th>Localização</th>
+                            <th>Data</th>
+                            <th>Foto</th>
+
+                        </tr>
+                        <tr>
+                            <td> EXTRAÇÃO MINERAL ILEGAL </td>
+                            <td> Nova Lima, Minas Gerais</td>
+                            <td> 19/07/2021 05:21</td>
+                            <td><img width=100px src="upload/minerio-ilegal.jpg"></td>
+                        </tr>
+                    
+                    <table align=center border="2">
+                        <tr>
+                            <th>Ocorrência</th>
+                            <th>Localização</th>
+                            <th>Data</th>
+                            <th>Foto</th>
+
+                        </tr>
+                        <tr>
+                            <td> INCÊNDIO/QUEIMADAS&ensp;&ensp;&ensp;&ensp;&ensp;</td> <p></p><p></p>
+                            <td> Alfenas, Minas Gerais&ensp;&ensp;</td>
+                            <td> 19/07/2021 13:43</td>
+                            <td><img width=108px src="upload/queimada.jpeg"></td>
+                        </tr>
+                    </table>
+                    <table align=center border="2">
+                        <tr>
+                            <th>Ocorrência</th>
+                            <th>Localização</th>
+                            <th>Data</th>
+                            <th>Foto</th>
+
+                        </tr>
+                        <tr>
+                            <td> INCÊNDIO/QUEIMADAS&ensp;&ensp;&ensp;&ensp;&ensp;</td> <p></p><p></p>
+                            <td> Araguari, Minas Gerais&ensp;</td>
+                            <td> 19/07/2021 15:00</td>
+                            <td><img width=100px src="upload/queimadacerrado.jpg"></td>
+                        </tr>
+                    </table>
+                    <br> 
+                    <div class="principal">
+                        <div class="Tipo de Denúncia"> 
+                         <h4>Filtrar por tipo de ocorrência:</h4>
+                          <select name="denuncia">
+                              <option value="valor1">INCÊNDIO/QUEIMADAS</option>
+                              <option value="valor2">CRIME CONTRA ANIMAIS DOMÉSTICOS</option>
+                              <option value="valor3">DESMATAMENTO/PODA ILEGAL</option>
+                              <option value="valor4">POLUIÇÃO DOS RECURSOS HÍDRICOS</option>
+                              <option value="valor5">DESCARTE IRREGULAR DE LIXO</option>
+                              <option value="valor6">PESCA ILEGAL</option>
+                              <option value="valor7">DANOS AO PATRIMÔNIO PÚBLICO</option>
+                              <option value="valor8">POLUIÇÃO DOS SOLOS</option>
+                              <option value="valor9">DESTRUIÇÃO DE MORROS</option>
+                              <option value="valor10">EXTRAÇÃO MINERAL ILEGAL</option>
+                              <option value="valor11">DESCARTE LIXO RADIOATIVO/NUCLEAR</option>
+                              <option value="valor12">CARRO ABANDONADO </option>
+                              <option value="valor13">CRIME CONTRA ANIMAIS SILVESTRES</option>
+                          </select>
+                        </p>
+                        </div>
+                   <h4>Se quiser, deixe um comentário: </h4> <p>
+
+                    </p>
+                    <div class="sugestao">
+                        
+                    <textarea rows="5" cols="75" name="campoReclamaçoes">
+                        https://g1.globo.com/mg/minas-gerais/noticia/2021/06/15/vinte-pessoas-sao-presas-por-extracao-ilegal-de-minerio-em-minas-gerais.ghtml
+                        </textarea><p>
+
+
+
+                        <input type="submit" /> 
+                        <input type="reset" /> 
+                
+                        <br><p>
+
+                        </p>
+                        Avalie o nosso website:
+                        <select name="Nota">
+                            <option value="0">Ótimo
+                            <option value="1">Bom
+                            <option value="2">Regular
+                            <option value="3">Ruim
+                        </select>
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+</a>
+
+</div>
 </body>
-<br>
-<footer>
-  <div id="rodape">
-      &copy; Copyright VerdePerto - Bárbara, Caroline, Krysthyan, Pedro, Simone e Yuri - 2021
-  </div>
-</footer>
